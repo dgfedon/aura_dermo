@@ -1,0 +1,87 @@
+// Reset
+* {
+	margin: 0;
+	padding: 0;
+}
+// 1 rem = 10px
+html {
+	font-size: 62,5%;
+}
+// Fondo - Cuerpo de la web
+body {
+    background-color: #fffffa;
+}
+// Contenedor padre
+.contenedor--fluid {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+// Vista mobile
+@media only screen and (min-width:0px) and (max-width:767px) {
+    // Tamaños de fuentes
+    $size: (
+        h2: 1.5rem,
+        h4: 1.2rem,
+    );
+    // Títulos
+    h2 {
+        font-size: map-get($size, h2);
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #907369;
+        margin-bottom: 15px;
+    }
+    // Nombre de productos
+    h4 {
+        font-size: map-get($size, h4);
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rosybrown;
+        margin-top: 15px;
+    }
+}
+
+// Vista tablet
+@media only screen and (min-width:768px) and (max-width:1239px) {
+    // Tamaños de fuentes
+    $size: (
+        h2: 1.8rem,
+        h4: 1.5rem,
+    );
+    // Títulos
+    h2 {
+        font-size: map-get($size, h2);
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #907369;
+        margin-bottom: 15px;
+    }
+    // Nombre de productos
+    h4 {
+        font-size: map-get($size, h4);
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rosybrown;
+        margin-top: 15px;
+    }
+}
+
+// Vista desktop
+@media only screen and (min-width:1240px) {
+    // Tamaños de fuentes
+    $size: (
+        h2: 1.8rem,
+        h4: 1.3rem,
+    );
+	// Títulos
+    h2 {
+        font-size: map-get($size, h2);
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #907369;
+        margin-bottom: 15px;
+    }
+    // Nombre de productos
+    h4 {
+        font-size: map-get($size, h4);
+        font-family: 'Source Sans Pro', sans-serif;
+        color: rosybrown;
+        margin-top: 10px;
+    }
+}

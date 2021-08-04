@@ -1,0 +1,197 @@
+// Vista mobile
+@media only screen and (min-width:0px) and (max-width:767px) {
+    // =========== Pie de página ===========
+	.foo {
+		height: auto;
+		border-top: 2px solid rgb(249, 241, 240);
+		padding: 0 40px 20px 40px;
+		margin-top: 10px;
+	}
+	// Texto encabezados pie de página
+	.foo__text {
+		color: #907369;
+		font-size: 1rem;
+		font-family: 'Noto Sans TC', sans-serif;
+		text-align: center;
+		padding-top: 15px;
+	}
+	// Listas del pie de página
+	.foo__list {
+		padding: 0;
+		margin: 0 px;
+		text-align: center;
+		border-bottom: 2px solid rgb(249, 241, 240);
+	}
+	.foo__list li {
+		list-style-type: none;
+		color: rosybrown;
+		font-size: 1rem;
+	}
+	.foo__list a {
+		text-decoration: none;
+		color: rosybrown;
+	}
+	.foo__list a:hover {
+		font-size: 1.2rem;
+	}
+	// Iconos redes sociales
+	.foo__redes--icon {
+		font-size: 2.5rem;
+		color: #907369;
+		text-align: center;
+	}
+	/* // Transiciones/animaciones redes sociales footer */
+	.transicionFB:hover {
+		color: #007BFF;
+		transition: 1s;
+	}
+	.transicionIG:hover {
+		color: #E83E8C;
+		transition: 1s;
+	}
+	.transicionWA:hover {
+		color: #25D366;
+		transition: 1s;
+	}
+// =========== COPY ===========
+// Footer copy
+.foo__copy {
+	background: rgb(249, 241, 240);
+	padding: 15px 40px;
+}
+// Texto copy pie de página
+.foo__copy p {
+	color: #907369;
+	font-size: 1.2rem;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align: center;
+	margin: 0;
+}
+}
+
+// Vista tablet
+@media only screen and (min-width:768px) and (max-width:1239px) {
+    // =========== Pie de página ===========
+	.foo {
+		height: auto;
+		border-top: 2px solid rgb(249, 241, 240);
+		padding: 20px 40px;
+		margin-top: 10px;
+	}
+	// Texto encabezados pie de página
+	.foo__text {
+		color: #907369;
+		font-family: 'Noto Sans TC', sans-serif;
+	}
+	// Listas del pie de página
+	.foo__list {
+		padding: 0;
+	}
+	.foo__list li {
+		list-style-type: none;
+		color: rosybrown;
+		font-size: 1rem;
+	}
+	.foo__list a {
+		text-decoration: none;
+		color: rosybrown;
+	}
+	.foo__list a:hover {
+		font-size: 1.2rem;
+	}
+	// Iconos redes sociales
+	.foo__redes--icon {
+		font-size: 2.5rem;
+		color: #907369;
+	}
+	// Transiciones/animaciones redes sociales footer
+	.transicionFB:hover {
+		color: #007BFF;
+		transition: 1s;
+	}
+	.transicionIG:hover {
+		color: #E83E8C;
+		transition: 1s;
+	}
+	.transicionWA:hover {
+		color: #25D366;
+		transition: 1s;
+	}
+	// =========== COPY ===========
+	// Footer copy
+	.foo__copy {
+	background: rgb(249, 241, 240);
+	padding: 15px 40px 15px 40px;
+	}
+	// Texto copy pie de página
+	.foo__copy p {
+	color: #907369;
+	font-size: 1.2rem;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align: center;
+	}
+}
+
+// Vista desktop
+@media only screen and (min-width:1240px) {
+	// =========== Pie de página ===========
+    .foo {
+        height: 200px;
+        border-top: 2px solid rgb(249, 241, 240);
+        padding: 20px 40px;
+		margin-top: 15px;
+    }
+    // Texto encabezados pie de página
+    .foo__text {
+        color: #907369;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+    // Listas del pie de página
+    .foo__list {
+        padding: 0;
+    }
+    .foo__list li {
+        list-style-type: none;
+        color: rosybrown;
+        font-size: 1rem;
+    }
+    .foo__list a {
+        text-decoration: none;
+        color: rosybrown;
+    }
+    .foo__list a:hover {
+        font-size: 1.2rem;
+    }
+    // Iconos redes sociales
+	.foo__redes--icon {
+		font-size: 2.5rem;
+		color: #907369;
+	}
+	// Transiciones/animaciones redes sociales footer
+	.transicionFB:hover {
+		color: #007BFF;
+        transition: 1s;
+	}
+	.transicionIG:hover {
+		color: #E83E8C;
+		transition: 1s;
+	}
+	.transicionWA:hover {
+		color: #25D366;
+		transition: 1s;
+	}
+    // =========== COPY ===========
+	// Footer copy
+	.foo__copy {
+		background: rgb(249, 241, 240);
+		padding: 15px 40px;
+	}
+	// Texto copy pie de página
+	.foo__copy p {
+		color: #907369;
+		font-size: 1.2rem;
+		font-family: 'Noto Sans TC', sans-serif;
+		text-align: center;
+		margin: 0;
+	}
+}

@@ -1,0 +1,241 @@
+// Vista mobile
+@media only screen and (min-width:0px) and (max-width:767px) {
+    // Sección iconos de contactos
+    .contacto--icon {
+        font-size: 3rem;
+		color: #E9DDD4;
+		text-align: center;
+    }
+    .contacto--icon:hover {
+        transform: scale(1.1);
+    }
+    // Sección formulario de contacto
+    .form__contacto {
+        width: auto;
+        height: auto;
+        background: #fffffa;
+        box-shadow: 12px 13px 20px #E9DDD4;
+        padding: 10px 10px;
+        border-radius: 20px;
+        border-top: 5px solid #E9DDD4;
+        color: rosybrown;
+        margin: 10px 20px;
+    }
+    .form__contacto h5 {
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: 'Noto Sans TC', sans-serif;
+        height: 50px;
+        margin: 10px 0;
+        border-bottom: 3px solid #E9DDD4;
+    }
+    .form__contacto input, select, textarea {
+        border: 2px solid #E9DDD4;
+    }
+    // Datos personales
+    .form--datos {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px 5px;
+        font-size: 1rem;
+    }
+    .fechaNacimiento {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .sexo {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .intereses {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .newsletters {
+        display: flex;
+        flex-direction: column;
+    }
+    // Botones de formulario
+    .form--boton {
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background: #E9DDD4;
+        margin-top: 20px;
+    }
+}
+
+// Vista tablet
+@media only screen and (min-width:768px) and (max-width:1239px) {
+    // Sección iconos de contactos
+    .contacto--icon {
+        font-size: 3.5rem;
+		color: #E9DDD4;
+		text-align: center;
+    }
+    .contacto--icon:hover {
+        transform: scale(1.1);
+    }
+    // Sección formulario de contacto
+    .form__contacto {
+        width: 650px;
+        height: auto;
+        background: #fffffa;
+        margin: 15px auto;
+        box-shadow: 12px 13px 20px #E9DDD4;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border-top: 5px solid #E9DDD4;
+        color: rosybrown;
+    }
+    .form__contacto h5 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Noto Sans TC', sans-serif;
+        height: 50px;
+        margin: 10px 0;
+        border-bottom: 3px solid #E9DDD4;
+    }
+    .form__contacto input, select, textarea {
+        border: 2px solid #E9DDD4;
+    }
+    // Datos personales
+    .form--datos {
+        width: 48%;
+        margin-bottom: 10px;
+        padding: 10px 5px;
+        font-size: 1rem;
+    }
+    // Grid selección
+    .form--grid {
+        display: grid;
+        grid-template-areas: 
+        "nacimiento sexo"
+        "intereses newsletters";
+        grid-row-gap: 20px;
+    }
+    .fechaNacimiento {
+        grid-area: nacimiento;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .sexo {
+        grid-area: sexo;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .intereses {
+        grid-area: intereses;
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletters {
+        grid-area: newsletters;
+        display: flex;
+        flex-direction: column;
+    }
+    // Botones de formulario
+    .form--boton {
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background: #E9DDD4;
+        margin: 15px 0;
+    }
+}
+
+// Vista desktop
+@media only screen and (min-width:1240px) {
+    // Sección iconos de contactos
+    .contacto--icon {
+        font-size: 4rem;
+		color: #E9DDD4;
+		text-align: center;
+    }
+    .contacto--icon:hover {
+        transform: scale(1.1);
+    }
+    // Sección formulario de contacto
+    .form__contacto {
+        width: 750px;
+        height: auto;
+        background: #fffffa;
+        margin: 15px auto;
+        box-shadow: 12px 13px 20px #E9DDD4;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border-top: 5px solid #E9DDD4;
+        color: rosybrown;
+    }
+    .form__contacto h5 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: 'Noto Sans TC', sans-serif;
+        height: 50px;
+        margin: 10px 0;
+        border-bottom: 3px solid #E9DDD4;
+    }
+    .form__contacto input, select, textarea {
+        border: 2px solid #E9DDD4;
+    }
+    /* Datos personales */
+    .form--datos {
+        width: 48%;
+        margin-bottom: 10px;
+        padding: 10px 5px;
+        font-size: 1rem;
+    }
+    // Grid selección
+    .form--grid {
+        display: grid;
+        grid-template-areas: 
+        "nacimiento sexo"
+        "intereses newsletters";
+        grid-row-gap: 20px;
+    }
+    .fechaNacimiento {
+        grid-area: nacimiento;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .sexo {
+        grid-area: sexo;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .intereses {
+        grid-area: intereses;
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletters {
+        grid-area: newsletters;
+        display: flex;
+        flex-direction: column;
+    }
+    // Botones de formulario
+    .form--boton {
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background: #E9DDD4;
+        margin: 20px 0;
+        
+    }
+    .form--boton:hover {
+        transition: 1s;
+        background: #B49C94;
+    }
+}
