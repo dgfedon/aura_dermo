@@ -38,6 +38,10 @@ body {
         color: rosybrown;
         margin-top: 15px;
     }
+    // Padding
+    .padding {
+        padding: 0px 10px;
+    }
 }
 
 // Vista tablet
@@ -61,6 +65,10 @@ body {
         color: rosybrown;
         margin-top: 15px;
     }
+    // Padding
+    .padding {
+        padding: 0px 30px;
+    }
 }
 
 // Vista desktop
@@ -83,5 +91,9 @@ body {
         font-family: 'Source Sans Pro', sans-serif;
         color: rosybrown;
         margin-top: 10px;
+    }
+    // Padding
+    .padding {
+        padding: 0px 40px;
     }
 }

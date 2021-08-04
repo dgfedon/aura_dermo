@@ -1,9 +1,5 @@
 // Vista mobile
 @media only screen and (min-width:0px) and (max-width:767px) {
-    // Padding
-    .padding {
-        padding: 0px 10px;
-    }
     // Productos tienda
     .producto__item {
         border: 1px solid #E9DDD4;
@@ -12,9 +8,9 @@
         height: auto;
         margin-bottom: 15px;
         display: flex;
-    }
-    .producto__item:hover {
-        box-shadow: 0px 2px 15px 10px #E9DDD4;
+        &:hover {
+            box-shadow: 0px 2px 15px 10px #E9DDD4;
+        }
     }
     // Productos con flex
     .producto__item--flex {
@@ -48,10 +44,11 @@
         height: 30px;
         width: 150px;
         margin-bottom: 15px;
-    }
-    .producto__item--btn:focus {
-        background: #B49C94;
-        color: beige;
+        border-radius: 5px;
+        &:hover {
+            background: #B49C94;
+            color: beige;
+        }
     }
     /* Imagen borde redondeado */
     .img-radius {
@@ -72,10 +69,6 @@
 
 // Vista tablet
 @media only screen and (min-width:768px) and (max-width:1239px) {
-    // Padding
-    .padding {
-        padding: 0px 30px;
-    }
     // Productos tienda
     .producto__item {
         border: 1px solid #E9DDD4;
@@ -83,9 +76,9 @@
         padding: 0 20px 10px 20px;
         height: auto;
         margin-bottom: 20px;
-    }
-    .producto__item:hover {
-        box-shadow: 0px 2px 15px 10px #E9DDD4;
+        &:hover {
+            box-shadow: 0px 2px 15px 10px #E9DDD4;
+        }
     }
     // Productos con flex
     .producto__item--flex {
@@ -119,10 +112,11 @@
         height: 30px; 
         width: 150px;
         margin-bottom: 15px;
-    }
-    .producto__item--btn:hover {
-        background: #B49C94;
-        color: beige;
+        border-radius: 5px;
+        &:hover {
+            background: #B49C94;
+            color: beige;
+        }
     }
     /* Imagen borde redondeado */
     .img-radius {
@@ -143,10 +137,6 @@
 
 // Vista desktop
 @media only screen and (min-width:1240px) {
-    // Padding
-    .padding {
-        padding: 0px 40px;
-    }
     // Productos tienda
     .producto__item {
         border: 1px solid #E9DDD4;
@@ -154,9 +144,9 @@
         padding: 0 30px 10px 30px;
         height: auto;
         margin-bottom: 20px;
-    }
-    .producto__item:hover {
-        box-shadow: 0px 2px 15px 10px #E9DDD4;
+        &:hover {
+            box-shadow: 0px 2px 15px 10px #E9DDD4;
+        }
     }
     // Precio producto
     .producto__item--price {
@@ -190,10 +180,11 @@
         height: 30px;
         width: 150px;
         margin-bottom: 20px;
-    }
-    .producto__item--btn:hover {
-        background: #B49C94;
-        color: beige;
+        border-radius: 5px;
+        &:hover {
+            background: #B49C94;
+            color: beige;
+        }
     }
     /* Imagen borde redondeado */
     .img-radius {

@@ -5,9 +5,9 @@
         font-size: 3rem;
 		color: #E9DDD4;
 		text-align: center;
-    }
-    .contacto--icon:hover {
-        transform: scale(1.1);
+        &:hover {
+            transform: scale(1.1);
+        }
     }
     // Sección formulario de contacto
     .form__contacto {
@@ -20,17 +20,17 @@
         border-top: 5px solid #E9DDD4;
         color: rosybrown;
         margin: 10px 20px;
-    }
-    .form__contacto h5 {
-        text-align: center;
-        font-size: 1.1rem;
-        font-family: 'Noto Sans TC', sans-serif;
-        height: 50px;
-        margin: 10px 0;
-        border-bottom: 3px solid #E9DDD4;
-    }
-    .form__contacto input, select, textarea {
-        border: 2px solid #E9DDD4;
+        h5 {
+            text-align: center;
+            font-size: 1.1rem;
+            font-family: 'Noto Sans TC', sans-serif;
+            height: 50px;
+            margin: 10px 0;
+            border-bottom: 3px solid #E9DDD4;
+        }
+        input, select, textarea {
+            border: 2px solid #E9DDD4;
+        }
     }
     // Datos personales
     .form--datos {
@@ -67,7 +67,14 @@
         border: none;
         border-radius: 5px;
         background: #E9DDD4;
+        color: #907369;
+        font-size: 1rem;
+        text-align: center;
         margin-top: 20px;
+        &:hover {
+            background: #B49C94;
+            color: #E9DDD4;
+        }
     }
 }
 
@@ -78,9 +85,9 @@
         font-size: 3.5rem;
 		color: #E9DDD4;
 		text-align: center;
-    }
-    .contacto--icon:hover {
-        transform: scale(1.1);
+        &:hover {
+            transform: scale(1.1);
+        }
     }
     // Sección formulario de contacto
     .form__contacto {
@@ -93,17 +100,17 @@
         border-radius: 20px;
         border-top: 5px solid #E9DDD4;
         color: rosybrown;
-    }
-    .form__contacto h5 {
-        text-align: center;
-        font-size: 1.5rem;
-        font-family: 'Noto Sans TC', sans-serif;
-        height: 50px;
-        margin: 10px 0;
-        border-bottom: 3px solid #E9DDD4;
-    }
-    .form__contacto input, select, textarea {
-        border: 2px solid #E9DDD4;
+        h5 {
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Noto Sans TC', sans-serif;
+            height: 50px;
+            margin: 10px 0;
+            border-bottom: 3px solid #E9DDD4;
+        }
+        input, select, textarea {
+            border: 2px solid #E9DDD4;
+        }
     }
     // Datos personales
     .form--datos {
@@ -112,7 +119,7 @@
         padding: 10px 5px;
         font-size: 1rem;
     }
-    // Grid selección
+    // Sección datos personales con grid
     .form--grid {
         display: grid;
         grid-template-areas: 
@@ -149,7 +156,14 @@
         border: none;
         border-radius: 5px;
         background: #E9DDD4;
+        color: #907369;
+        font-size: 1rem;
+        text-align: center;
         margin: 15px 0;
+        &:hover {
+            background: #B49C94;
+            color: beige;
+        }
     }
 }
 
@@ -160,9 +174,9 @@
         font-size: 4rem;
 		color: #E9DDD4;
 		text-align: center;
-    }
-    .contacto--icon:hover {
-        transform: scale(1.1);
+        &:hover {
+            transform: scale(1.1);
+        }
     }
     // Sección formulario de contacto
     .form__contacto {
@@ -175,26 +189,26 @@
         border-radius: 20px;
         border-top: 5px solid #E9DDD4;
         color: rosybrown;
+        h5 {
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Noto Sans TC', sans-serif;
+            height: 50px;
+            margin: 10px 0;
+            border-bottom: 3px solid #E9DDD4;
+        }
+        input, select, textarea {
+            border: 2px solid #E9DDD4;
+        }
     }
-    .form__contacto h5 {
-        text-align: center;
-        font-size: 1.5rem;
-        font-family: 'Noto Sans TC', sans-serif;
-        height: 50px;
-        margin: 10px 0;
-        border-bottom: 3px solid #E9DDD4;
-    }
-    .form__contacto input, select, textarea {
-        border: 2px solid #E9DDD4;
-    }
-    /* Datos personales */
+    // Datos personales
     .form--datos {
         width: 48%;
         margin-bottom: 10px;
         padding: 10px 5px;
         font-size: 1rem;
     }
-    // Grid selección
+    // Sección datos personales con grid
     .form--grid {
         display: grid;
         grid-template-areas: 
@@ -231,11 +245,13 @@
         border: none;
         border-radius: 5px;
         background: #E9DDD4;
+        color: #907369;
+        font-size: 1rem;
+        text-align: center;
         margin: 20px 0;
-        
-    }
-    .form--boton:hover {
-        transition: 1s;
-        background: #B49C94;
+        &:hover {
+            background: #B49C94;
+            color: #E9DDD4;
+        }
     }
 }

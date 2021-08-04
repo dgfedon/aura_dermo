@@ -23,7 +23,9 @@ body {
     font-size: 1.2rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: rosybrown;
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  .padding {
+    padding: 0px 10px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1239px) {
   h2 {
@@ -35,7 +37,9 @@ body {
     font-size: 1.5rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: rosybrown;
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  .padding {
+    padding: 0px 30px; } }
 
 @media only screen and (min-width: 1240px) {
   h2 {
@@ -47,7 +51,9 @@ body {
     font-size: 1.3rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: rosybrown;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .padding {
+    padding: 0px 40px; } }
 
 header {
   background: #f9f1f0;
@@ -379,8 +385,6 @@ header {
     background-size: 100% 2px; } }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  .padding {
-    padding: 0px 10px; }
   .producto__item {
     border: 1px solid #E9DDD4;
     border-radius: 10px;
@@ -388,8 +392,8 @@ header {
     height: auto;
     margin-bottom: 15px;
     display: flex; }
-  .producto__item:hover {
-    box-shadow: 0px 2px 15px 10px #E9DDD4; }
+    .producto__item:hover {
+      box-shadow: 0px 2px 15px 10px #E9DDD4; }
   .producto__item--flex {
     display: flex;
     flex-direction: column;
@@ -413,10 +417,11 @@ header {
     text-align: center;
     height: 30px;
     width: 150px;
-    margin-bottom: 15px; }
-  .producto__item--btn:focus {
-    background: #B49C94;
-    color: beige; }
+    margin-bottom: 15px;
+    border-radius: 5px; }
+    .producto__item--btn:hover {
+      background: #B49C94;
+      color: beige; }
   /* Imagen borde redondeado */
   .img-radius {
     border-radius: 10px 10px 0px 0px; }
@@ -428,16 +433,14 @@ header {
     text-decoration-line: line-through; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1239px) {
-  .padding {
-    padding: 0px 30px; }
   .producto__item {
     border: 1px solid #E9DDD4;
     border-radius: 10px;
     padding: 0 20px 10px 20px;
     height: auto;
     margin-bottom: 20px; }
-  .producto__item:hover {
-    box-shadow: 0px 2px 15px 10px #E9DDD4; }
+    .producto__item:hover {
+      box-shadow: 0px 2px 15px 10px #E9DDD4; }
   .producto__item--flex {
     display: flex;
     flex-direction: column;
@@ -461,10 +464,11 @@ header {
     text-align: center;
     height: 30px;
     width: 150px;
-    margin-bottom: 15px; }
-  .producto__item--btn:hover {
-    background: #B49C94;
-    color: beige; }
+    margin-bottom: 15px;
+    border-radius: 5px; }
+    .producto__item--btn:hover {
+      background: #B49C94;
+      color: beige; }
   /* Imagen borde redondeado */
   .img-radius {
     border-radius: 0px 0px 10px 10px; }
@@ -476,16 +480,14 @@ header {
     text-decoration-line: line-through; } }
 
 @media only screen and (min-width: 1240px) {
-  .padding {
-    padding: 0px 40px; }
   .producto__item {
     border: 1px solid #E9DDD4;
     border-radius: 10px;
     padding: 0 30px 10px 30px;
     height: auto;
     margin-bottom: 20px; }
-  .producto__item:hover {
-    box-shadow: 0px 2px 15px 10px #E9DDD4; }
+    .producto__item:hover {
+      box-shadow: 0px 2px 15px 10px #E9DDD4; }
   .producto__item--price {
     font-size: 1.2rem;
     font-family: 'Noto Sans TC', sans-serif;
@@ -509,10 +511,11 @@ header {
     text-align: center;
     height: 30px;
     width: 150px;
-    margin-bottom: 20px; }
-  .producto__item--btn:hover {
-    background: #B49C94;
-    color: beige; }
+    margin-bottom: 20px;
+    border-radius: 5px; }
+    .producto__item--btn:hover {
+      background: #B49C94;
+      color: beige; }
   /* Imagen borde redondeado */
   .img-radius {
     border-radius: 0px 0px 10px 10px; }
@@ -528,8 +531,8 @@ header {
     font-size: 3rem;
     color: #E9DDD4;
     text-align: center; }
-  .contacto--icon:hover {
-    transform: scale(1.1); }
+    .contacto--icon:hover {
+      transform: scale(1.1); }
   .form__contacto {
     width: auto;
     height: auto;
@@ -540,15 +543,15 @@ header {
     border-top: 5px solid #E9DDD4;
     color: rosybrown;
     margin: 10px 20px; }
-  .form__contacto h5 {
-    text-align: center;
-    font-size: 1.1rem;
-    font-family: 'Noto Sans TC', sans-serif;
-    height: 50px;
-    margin: 10px 0;
-    border-bottom: 3px solid #E9DDD4; }
-  .form__contacto input, select, textarea {
-    border: 2px solid #E9DDD4; }
+    .form__contacto h5 {
+      text-align: center;
+      font-size: 1.1rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      height: 50px;
+      margin: 10px 0;
+      border-bottom: 3px solid #E9DDD4; }
+    .form__contacto input, .form__contacto select, .form__contacto textarea {
+      border: 2px solid #E9DDD4; }
   .form--datos {
     width: 100%;
     margin-bottom: 10px;
@@ -577,15 +580,21 @@ header {
     border: none;
     border-radius: 5px;
     background: #E9DDD4;
-    margin-top: 20px; } }
+    color: #907369;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px; }
+    .form--boton:hover {
+      background: #B49C94;
+      color: #E9DDD4; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1239px) {
   .contacto--icon {
     font-size: 3.5rem;
     color: #E9DDD4;
     text-align: center; }
-  .contacto--icon:hover {
-    transform: scale(1.1); }
+    .contacto--icon:hover {
+      transform: scale(1.1); }
   .form__contacto {
     width: 650px;
     height: auto;
@@ -596,15 +605,15 @@ header {
     border-radius: 20px;
     border-top: 5px solid #E9DDD4;
     color: rosybrown; }
-  .form__contacto h5 {
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Noto Sans TC', sans-serif;
-    height: 50px;
-    margin: 10px 0;
-    border-bottom: 3px solid #E9DDD4; }
-  .form__contacto input, select, textarea {
-    border: 2px solid #E9DDD4; }
+    .form__contacto h5 {
+      text-align: center;
+      font-size: 1.5rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      height: 50px;
+      margin: 10px 0;
+      border-bottom: 3px solid #E9DDD4; }
+    .form__contacto input, .form__contacto select, .form__contacto textarea {
+      border: 2px solid #E9DDD4; }
   .form--datos {
     width: 48%;
     margin-bottom: 10px;
@@ -638,15 +647,21 @@ header {
     border: none;
     border-radius: 5px;
     background: #E9DDD4;
-    margin: 15px 0; } }
+    color: #907369;
+    font-size: 1rem;
+    text-align: center;
+    margin: 15px 0; }
+    .form--boton:hover {
+      background: #B49C94;
+      color: beige; } }
 
 @media only screen and (min-width: 1240px) {
   .contacto--icon {
     font-size: 4rem;
     color: #E9DDD4;
     text-align: center; }
-  .contacto--icon:hover {
-    transform: scale(1.1); }
+    .contacto--icon:hover {
+      transform: scale(1.1); }
   .form__contacto {
     width: 750px;
     height: auto;
@@ -657,16 +672,15 @@ header {
     border-radius: 20px;
     border-top: 5px solid #E9DDD4;
     color: rosybrown; }
-  .form__contacto h5 {
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Noto Sans TC', sans-serif;
-    height: 50px;
-    margin: 10px 0;
-    border-bottom: 3px solid #E9DDD4; }
-  .form__contacto input, select, textarea {
-    border: 2px solid #E9DDD4; }
-  /* Datos personales */
+    .form__contacto h5 {
+      text-align: center;
+      font-size: 1.5rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      height: 50px;
+      margin: 10px 0;
+      border-bottom: 3px solid #E9DDD4; }
+    .form__contacto input, .form__contacto select, .form__contacto textarea {
+      border: 2px solid #E9DDD4; }
   .form--datos {
     width: 48%;
     margin-bottom: 10px;
@@ -700,7 +714,10 @@ header {
     border: none;
     border-radius: 5px;
     background: #E9DDD4;
+    color: #907369;
+    font-size: 1rem;
+    text-align: center;
     margin: 20px 0; }
-  .form--boton:hover {
-    transition: 1s;
-    background: #B49C94; } }
+    .form--boton:hover {
+      background: #B49C94;
+      color: #E9DDD4; } }
