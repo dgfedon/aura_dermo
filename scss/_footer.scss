@@ -139,7 +139,7 @@
     .foo {
         height: 200px;
         border-top: 2px solid rgb(249, 241, 240);
-        padding: 20px 40px;
+        padding: 20px 40px 20px 100px;
 		margin-top: 15px;
     }
     // Texto encabezados pie de página
@@ -171,7 +171,6 @@
 	// Transiciones/animaciones redes sociales footer
 	.transicionFB:hover {
 		color: #007BFF;
-		transform: translateY(-10px);
         transition: 1s;
 	}
 	.transicionIG:hover {

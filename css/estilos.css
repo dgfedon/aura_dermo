@@ -239,7 +239,7 @@ header {
   .foo {
     height: 200px;
     border-top: 2px solid #f9f1f0;
-    padding: 20px 40px;
+    padding: 20px 40px 20px 100px;
     margin-top: 15px; }
   .foo__text {
     color: #907369;
@@ -260,7 +260,6 @@ header {
     color: #907369; }
   .transicionFB:hover {
     color: #007BFF;
-    transform: translateY(-10px);
     transition: 1s; }
   .transicionIG:hover {
     color: #E83E8C;
@@ -332,10 +331,6 @@ header {
     text-align: center;
     font-size: 1rem;
     color: rosybrown; }
-  .flex-sm-posicion {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
   .asesoramiento--box {
     background-color: rgba(233, 221, 212, 0.8);
     height: 100px; }
