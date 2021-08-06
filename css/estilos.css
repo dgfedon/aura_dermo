@@ -160,15 +160,15 @@ header {
     margin: 0 px;
     text-align: center;
     border-bottom: 2px solid #f9f1f0; }
-  .foo__list li {
-    list-style-type: none;
-    color: rosybrown;
-    font-size: 1rem; }
-  .foo__list a {
-    text-decoration: none;
-    color: rosybrown; }
-  .foo__list a:hover {
-    font-size: 1.2rem; }
+    .foo__list li {
+      list-style-type: none;
+      color: rosybrown;
+      font-size: 1rem; }
+      .foo__list li a {
+        text-decoration: none;
+        color: rosybrown; }
+        .foo__list li a:hover {
+          font-size: 1.2rem; }
   .foo__redes--icon {
     font-size: 2.5rem;
     color: #907369;
@@ -186,12 +186,12 @@ header {
   .foo__copy {
     background: #f9f1f0;
     padding: 15px 40px; }
-  .foo__copy p {
-    color: #907369;
-    font-size: 1.2rem;
-    font-family: 'Noto Sans TC', sans-serif;
-    text-align: center;
-    margin: 0; } }
+    .foo__copy p {
+      color: #907369;
+      font-size: 1.2rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      text-align: center;
+      margin: 0; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1239px) {
   .foo {
@@ -204,15 +204,15 @@ header {
     font-family: 'Noto Sans TC', sans-serif; }
   .foo__list {
     padding: 0; }
-  .foo__list li {
-    list-style-type: none;
-    color: rosybrown;
-    font-size: 1rem; }
-  .foo__list a {
-    text-decoration: none;
-    color: rosybrown; }
-  .foo__list a:hover {
-    font-size: 1.2rem; }
+    .foo__list li {
+      list-style-type: none;
+      color: rosybrown;
+      font-size: 1rem; }
+      .foo__list li a {
+        text-decoration: none;
+        color: rosybrown; }
+        .foo__list li a:hover {
+          font-size: 1.2rem; }
   .foo__redes--icon {
     font-size: 2.5rem;
     color: #907369; }
@@ -228,11 +228,12 @@ header {
   .foo__copy {
     background: #f9f1f0;
     padding: 15px 40px 15px 40px; }
-  .foo__copy p {
-    color: #907369;
-    font-size: 1.2rem;
-    font-family: 'Noto Sans TC', sans-serif;
-    text-align: center; } }
+    .foo__copy p {
+      color: #907369;
+      font-size: 1.2rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      text-align: center;
+      margin: 0; } }
 
 @media only screen and (min-width: 1240px) {
   .foo {
@@ -245,20 +246,21 @@ header {
     font-family: 'Noto Sans TC', sans-serif; }
   .foo__list {
     padding: 0; }
-  .foo__list li {
-    list-style-type: none;
-    color: rosybrown;
-    font-size: 1rem; }
-  .foo__list a {
-    text-decoration: none;
-    color: rosybrown; }
-  .foo__list a:hover {
-    font-size: 1.2rem; }
+    .foo__list li {
+      list-style-type: none;
+      color: rosybrown;
+      font-size: 1rem; }
+      .foo__list li a {
+        text-decoration: none;
+        color: rosybrown; }
+        .foo__list li a:hover {
+          font-size: 1.2rem; }
   .foo__redes--icon {
     font-size: 2.5rem;
     color: #907369; }
   .transicionFB:hover {
     color: #007BFF;
+    transform: translateY(-10px);
     transition: 1s; }
   .transicionIG:hover {
     color: #E83E8C;
@@ -269,12 +271,12 @@ header {
   .foo__copy {
     background: #f9f1f0;
     padding: 15px 40px; }
-  .foo__copy p {
-    color: #907369;
-    font-size: 1.2rem;
-    font-family: 'Noto Sans TC', sans-serif;
-    text-align: center;
-    margin: 0; } }
+    .foo__copy p {
+      color: #907369;
+      font-size: 1.2rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      text-align: center;
+      margin: 0; } }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .index__texto {
@@ -368,8 +370,7 @@ header {
 
 @media only screen and (min-width: 1240px) {
   .index__texto {
-    width: 500px;
-    margin: 30px;
+    padding: 0px 20px;
     text-align: center;
     font-size: 1.2rem;
     color: rosybrown; }
@@ -556,11 +557,11 @@ header {
     height: auto;
     background: #fffffa;
     box-shadow: 12px 13px 20px #E9DDD4;
-    padding: 10px 10px;
+    padding: 10px;
     border-radius: 20px;
     border-top: 5px solid #E9DDD4;
     color: rosybrown;
-    margin: 10px 20px; }
+    margin: 10px 15px 30px 15px; }
     .form__contacto h5 {
       text-align: center;
       font-size: 1.1rem;
@@ -617,7 +618,7 @@ header {
     width: 650px;
     height: auto;
     background: #fffffa;
-    margin: 15px auto;
+    margin: 10px auto 30px auto;
     box-shadow: 12px 13px 20px #E9DDD4;
     padding: 10px 20px;
     border-radius: 20px;
@@ -684,7 +685,7 @@ header {
     width: 750px;
     height: auto;
     background: #fffffa;
-    margin: 15px auto;
+    margin: 10px auto 40px auto;
     box-shadow: 12px 13px 20px #E9DDD4;
     padding: 10px 20px;
     border-radius: 20px;

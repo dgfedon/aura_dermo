@@ -21,18 +21,18 @@
 		margin: 0 px;
 		text-align: center;
 		border-bottom: 2px solid rgb(249, 241, 240);
-	}
-	.foo__list li {
-		list-style-type: none;
-		color: rosybrown;
-		font-size: 1rem;
-	}
-	.foo__list a {
-		text-decoration: none;
-		color: rosybrown;
-	}
-	.foo__list a:hover {
-		font-size: 1.2rem;
+		li {
+			list-style-type: none;
+			color: rosybrown;
+			font-size: 1rem;
+			a {
+				text-decoration: none;
+				color: rosybrown;
+				&:hover {
+					font-size: 1.2rem;
+				}
+			}
+		}
 	}
 	// Iconos redes sociales
 	.foo__redes--icon {
@@ -53,20 +53,20 @@
 		color: #25D366;
 		transition: 1s;
 	}
-// =========== COPY ===========
-// Footer copy
-.foo__copy {
-	background: rgb(249, 241, 240);
-	padding: 15px 40px;
-}
-// Texto copy pie de página
-.foo__copy p {
-	color: #907369;
-	font-size: 1.2rem;
-	font-family: 'Noto Sans TC', sans-serif;
-	text-align: center;
-	margin: 0;
-}
+	// =========== COPY ===========
+	// Footer copy
+	.foo__copy {
+		background: rgb(249, 241, 240);
+		padding: 15px 40px;
+		// Texto copy pie de página
+		p {
+			color: #907369;
+			font-size: 1.2rem;
+			font-family: 'Noto Sans TC', sans-serif;
+			text-align: center;
+			margin: 0;
+		}
+	}
 }
 
 // Vista tablet
@@ -86,18 +86,18 @@
 	// Listas del pie de página
 	.foo__list {
 		padding: 0;
-	}
-	.foo__list li {
-		list-style-type: none;
-		color: rosybrown;
-		font-size: 1rem;
-	}
-	.foo__list a {
-		text-decoration: none;
-		color: rosybrown;
-	}
-	.foo__list a:hover {
-		font-size: 1.2rem;
+		li {
+			list-style-type: none;
+			color: rosybrown;
+			font-size: 1rem;
+			a {
+				text-decoration: none;
+				color: rosybrown;
+				&:hover {
+					font-size: 1.2rem;
+				}
+			}
+		}
 	}
 	// Iconos redes sociales
 	.foo__redes--icon {
@@ -120,15 +120,16 @@
 	// =========== COPY ===========
 	// Footer copy
 	.foo__copy {
-	background: rgb(249, 241, 240);
-	padding: 15px 40px 15px 40px;
-	}
-	// Texto copy pie de página
-	.foo__copy p {
-	color: #907369;
-	font-size: 1.2rem;
-	font-family: 'Noto Sans TC', sans-serif;
-	text-align: center;
+		background: rgb(249, 241, 240);
+		padding: 15px 40px 15px 40px;
+		// Texto copy pie de página
+		p {
+			color: #907369;
+			font-size: 1.2rem;
+			font-family: 'Noto Sans TC', sans-serif;
+			text-align: center;
+			margin: 0;
+		}
 	}
 }
 
@@ -149,18 +150,18 @@
     // Listas del pie de página
     .foo__list {
         padding: 0;
-    }
-    .foo__list li {
-        list-style-type: none;
-        color: rosybrown;
-        font-size: 1rem;
-    }
-    .foo__list a {
-        text-decoration: none;
-        color: rosybrown;
-    }
-    .foo__list a:hover {
-        font-size: 1.2rem;
+		li {
+			list-style-type: none;
+			color: rosybrown;
+			font-size: 1rem;
+			a {
+				text-decoration: none;
+				color: rosybrown;
+				&:hover {
+					font-size: 1.2rem;
+				}
+			}
+		}
     }
     // Iconos redes sociales
 	.foo__redes--icon {
@@ -170,6 +171,7 @@
 	// Transiciones/animaciones redes sociales footer
 	.transicionFB:hover {
 		color: #007BFF;
+		transform: translateY(-10px);
         transition: 1s;
 	}
 	.transicionIG:hover {
@@ -185,13 +187,13 @@
 	.foo__copy {
 		background: rgb(249, 241, 240);
 		padding: 15px 40px;
-	}
-	// Texto copy pie de página
-	.foo__copy p {
-		color: #907369;
-		font-size: 1.2rem;
-		font-family: 'Noto Sans TC', sans-serif;
-		text-align: center;
-		margin: 0;
+		// Texto copy pie de página
+		p {
+			color: #907369;
+			font-size: 1.2rem;
+			font-family: 'Noto Sans TC', sans-serif;
+			text-align: center;
+			margin: 0;
+		}
 	}
 }
