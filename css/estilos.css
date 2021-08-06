@@ -18,12 +18,18 @@ body {
     font-size: 1.5rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: #907369;
-    margin-bottom: 15px; }
+    margin-bottom: 5px; }
   h4 {
     font-size: 1.2rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: rosybrown;
     margin-top: 15px; }
+  .linea--division {
+    width: 80%;
+    height: 2px;
+    background-color: #E9DDD4;
+    margin: auto;
+    margin-bottom: 15px; }
   .padding {
     padding: 0px 10px; } }
 
@@ -32,12 +38,18 @@ body {
     font-size: 1.8rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: #907369;
-    margin-bottom: 15px; }
+    margin-bottom: 5px; }
   h4 {
     font-size: 1.5rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: rosybrown;
     margin-top: 15px; }
+  .linea--division {
+    width: 80%;
+    height: 2px;
+    background-color: #E9DDD4;
+    margin: auto;
+    margin-bottom: 20px; }
   .padding {
     padding: 0px 30px; } }
 
@@ -46,12 +58,18 @@ body {
     font-size: 1.8rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: #907369;
-    margin-bottom: 15px; }
+    margin-bottom: 5px; }
   h4 {
     font-size: 1.3rem;
     font-family: 'Source Sans Pro', sans-serif;
     color: rosybrown;
     margin-top: 10px; }
+  .linea--division {
+    width: 50%;
+    height: 2px;
+    background-color: #E9DDD4;
+    margin: auto;
+    margin-bottom: 20px; }
   .padding {
     padding: 0px 40px; } }
 

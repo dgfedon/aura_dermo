@@ -29,7 +29,7 @@ body {
         font-size: map-get($size, h2);
         font-family: 'Source Sans Pro', sans-serif;
         color: #907369;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     // Nombre de productos
     h4 {
@@ -37,6 +37,14 @@ body {
         font-family: 'Source Sans Pro', sans-serif;
         color: rosybrown;
         margin-top: 15px;
+    }
+    // Linea divisoria
+    .linea--division {
+        width: 80%;
+        height: 2px;
+        background-color: #E9DDD4;
+        margin: auto;
+        margin-bottom: 15px;
     }
     // Padding
     .padding {
@@ -56,7 +64,7 @@ body {
         font-size: map-get($size, h2);
         font-family: 'Source Sans Pro', sans-serif;
         color: #907369;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     // Nombre de productos
     h4 {
@@ -64,6 +72,14 @@ body {
         font-family: 'Source Sans Pro', sans-serif;
         color: rosybrown;
         margin-top: 15px;
+    }
+    // Linea divisoria
+    .linea--division {
+        width: 80%;
+        height: 2px;
+        background-color: #E9DDD4;
+        margin: auto;
+        margin-bottom: 20px;
     }
     // Padding
     .padding {
@@ -83,7 +99,7 @@ body {
         font-size: map-get($size, h2);
         font-family: 'Source Sans Pro', sans-serif;
         color: #907369;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     // Nombre de productos
     h4 {
@@ -91,6 +107,14 @@ body {
         font-family: 'Source Sans Pro', sans-serif;
         color: rosybrown;
         margin-top: 10px;
+    }
+    // Linea divisoria
+    .linea--division {
+        width: 50%;
+        height: 2px;
+        background-color: #E9DDD4;
+        margin: auto;
+        margin-bottom: 20px;
     }
     // Padding
     .padding {
