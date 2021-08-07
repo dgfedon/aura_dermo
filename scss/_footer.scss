@@ -29,7 +29,7 @@
 				text-decoration: none;
 				color: rosybrown;
 				&:hover {
-					font-size: 1.2rem;
+					padding-left: 10px;
 				}
 			}
 		}
@@ -37,8 +37,11 @@
 	// Iconos redes sociales
 	.foo__redes--icon {
 		font-size: 2.5rem;
-		color: #907369;
 		text-align: center;
+		a {
+			text-decoration: none;
+			color: #907369;
+		}
 	}
 	/* // Transiciones/animaciones redes sociales footer */
 	.transicionFB:hover {
@@ -94,7 +97,7 @@
 				text-decoration: none;
 				color: rosybrown;
 				&:hover {
-					font-size: 1.2rem;
+					padding-left: 10px;
 				}
 			}
 		}
@@ -102,7 +105,10 @@
 	// Iconos redes sociales
 	.foo__redes--icon {
 		font-size: 2.5rem;
-		color: #907369;
+		a {
+			text-decoration: none;
+			color: #907369;
+		}
 	}
 	// Transiciones/animaciones redes sociales footer
 	.transicionFB:hover {
@@ -139,7 +145,7 @@
     .foo {
         height: 200px;
         border-top: 2px solid rgb(249, 241, 240);
-        padding: 20px 40px 20px 100px;
+        padding: 20px 50px 20px 140px;
 		margin-top: 15px;
     }
     // Texto encabezados pie de página
@@ -158,7 +164,7 @@
 				text-decoration: none;
 				color: rosybrown;
 				&:hover {
-					font-size: 1.2rem;
+					padding-left: 15px;
 				}
 			}
 		}
@@ -166,7 +172,10 @@
     // Iconos redes sociales
 	.foo__redes--icon {
 		font-size: 2.5rem;
-		color: #907369;
+		a {
+			text-decoration: none;
+			color: #907369;
+		}
 	}
 	// Transiciones/animaciones redes sociales footer
 	.transicionFB:hover {

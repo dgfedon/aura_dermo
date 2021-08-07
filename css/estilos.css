@@ -168,11 +168,13 @@ header {
         text-decoration: none;
         color: rosybrown; }
         .foo__list li a:hover {
-          font-size: 1.2rem; }
+          padding-left: 10px; }
   .foo__redes--icon {
     font-size: 2.5rem;
-    color: #907369;
     text-align: center; }
+    .foo__redes--icon a {
+      text-decoration: none;
+      color: #907369; }
   /* // Transiciones/animaciones redes sociales footer */
   .transicionFB:hover {
     color: #007BFF;
@@ -212,10 +214,12 @@ header {
         text-decoration: none;
         color: rosybrown; }
         .foo__list li a:hover {
-          font-size: 1.2rem; }
+          padding-left: 10px; }
   .foo__redes--icon {
-    font-size: 2.5rem;
-    color: #907369; }
+    font-size: 2.5rem; }
+    .foo__redes--icon a {
+      text-decoration: none;
+      color: #907369; }
   .transicionFB:hover {
     color: #007BFF;
     transition: 1s; }
@@ -239,7 +243,7 @@ header {
   .foo {
     height: 200px;
     border-top: 2px solid #f9f1f0;
-    padding: 20px 40px 20px 100px;
+    padding: 20px 50px 20px 140px;
     margin-top: 15px; }
   .foo__text {
     color: #907369;
@@ -254,10 +258,12 @@ header {
         text-decoration: none;
         color: rosybrown; }
         .foo__list li a:hover {
-          font-size: 1.2rem; }
+          padding-left: 15px; }
   .foo__redes--icon {
-    font-size: 2.5rem;
-    color: #907369; }
+    font-size: 2.5rem; }
+    .foo__redes--icon a {
+      text-decoration: none;
+      color: #907369; }
   .transicionFB:hover {
     color: #007BFF;
     transition: 1s; }
@@ -281,16 +287,12 @@ header {
   .index__texto {
     width: 350px;
     margin: 10px;
-    text-align: center;
+    text-align: justify;
     font-size: 1rem;
     color: rosybrown; }
-  .flex-sm-posicion {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .asesoramiento--box {
-    background-color: rgba(233, 221, 212, 0.8);
-    height: 100px; }
+  .nosotros--img {
+    max-width: 50%;
+    height: auto; }
   .flex-sm-catalogo {
     display: flex;
     flex-direction: column;
@@ -311,30 +313,29 @@ header {
     margin-bottom: 10px;
     padding: 10px 30px;
     text-align: center; }
-  .catalogo--box a {
-    font-size: 1.2rem;
-    font-family: 'Noto Sans TC', sans-serif;
-    color: rosybrown;
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size; }
-  .catalogo--box a:hover {
-    background-size: 100% 2px; } }
+    .catalogo--box a {
+      font-size: 1.2rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      color: rosybrown;
+      text-decoration: none;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size; }
+      .catalogo--box a:hover {
+        background-size: 100% 2px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1239px) {
   .index__texto {
-    width: 390px;
-    margin: 10px;
-    text-align: center;
+    width: 295px;
+    margin-top: 10px;
+    text-align: justify;
     font-size: 1rem;
     color: rosybrown; }
-  .asesoramiento--box {
-    background-color: rgba(233, 221, 212, 0.8);
-    height: 100px; }
-  /* Etiqueta nuevo catálogo */
+  .nosotros--img {
+    max-width: 60%;
+    height: auto; }
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
@@ -350,28 +351,29 @@ header {
     margin-bottom: 10px;
     padding: 10px 30px;
     text-align: center; }
-  .catalogo--box a {
-    font-size: 1.2rem;
-    font-family: 'Noto Sans TC', sans-serif;
-    color: rosybrown;
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size; }
-  .catalogo--box a:hover {
-    background-size: 100% 2px; } }
+    .catalogo--box a {
+      font-size: 1.2rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      color: rosybrown;
+      text-decoration: none;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size; }
+      .catalogo--box a:hover {
+        background-size: 100% 2px; } }
 
 @media only screen and (min-width: 1240px) {
   .index__texto {
-    padding: 0px 20px;
-    text-align: center;
+    padding: 10px 100px 0px 100px;
+    text-align: justify;
     font-size: 1.2rem;
-    color: rosybrown; }
-  .asesoramiento--box {
-    background-color: rgba(233, 221, 212, 0.8);
-    height: 150px; }
+    color: rosybrown;
+    width: 720px; }
+  .nosotros--img {
+    max-width: 40%;
+    height: auto; }
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
@@ -381,22 +383,22 @@ header {
     background-color: #B49C94;
     color: #E9DDD4; }
   .catalogo--box {
-    background-color: rgba(233, 221, 212, 0.8);
+    background-color: rgba(233, 221, 212, 0.5);
     margin: 5px;
     padding: 30px;
     text-align: center; }
-  .catalogo--box a {
-    font-size: 1.2rem;
-    font-family: 'Noto Sans TC', sans-serif;
-    color: rosybrown;
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size; }
-  .catalogo--box a:hover {
-    background-size: 100% 2px; } }
+    .catalogo--box a {
+      font-size: 1.2rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      color: rosybrown;
+      text-decoration: none;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size; }
+      .catalogo--box a:hover {
+        background-size: 100% 2px; } }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .producto__item {
@@ -439,8 +441,6 @@ header {
   /* Imagen borde redondeado */
   .img-radius {
     border-radius: 10px 10px 0px 0px; }
-  .translatePromos:hover {
-    transform: translate(2px, 2px); }
   .producto__item--sale {
     color: gainsboro;
     font-size: 1rem;
@@ -486,8 +486,6 @@ header {
   /* Imagen borde redondeado */
   .img-radius {
     border-radius: 0px 0px 10px 10px; }
-  .translatePromos:hover {
-    transform: translate(2px, 2px); }
   .producto__item--sale {
     color: gainsboro;
     font-size: 1rem;
@@ -533,8 +531,6 @@ header {
   /* Imagen borde redondeado */
   .img-radius {
     border-radius: 0px 0px 10px 10px; }
-  .translatePromos:hover {
-    transform: translate(5px, 5px); }
   .producto__item--sale {
     color: gainsboro;
     font-size: 1.2rem;

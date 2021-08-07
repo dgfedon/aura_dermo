@@ -31,7 +31,7 @@
     <div class="contenedor--fluid">
         <!-- Apertura fila encabezado -->
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <!-- Apertura encabezado -->
                 <header class="header__nav--flex">
                     <a class="navbar-brand" href="#">
@@ -56,85 +56,83 @@
             </div>
         </div>
         <!-- Cierre fila encabezado -->
-        <!-- Apertura sección carrusel -->
-		<section class="contenido">
-            <!-- Apertura fila carrusel -->
-			<div class="row">
-				<div class="col-lg-12 col-md-12 col-xs-12">
-					<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-						<div class="carousel-indicators">
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-						</div>
-						<div class="carousel-inner">
-							<!-- Imagen 1 carrusel -->
-							<div class="carousel-item active">
-								<img src="assets/img/carrusel.jpg" class="d-block w-100" alt="Carrusel Index">
-							</div>
-							<!-- Imagen 2 carrusel -->
-							<div class="carousel-item">
-								<img src="assets/img/carrusel3.jpg" class="d-block w-100" alt="Carrusel Index">
-							</div>
-							<!-- Imagen 3 carrusel -->
-							<div class="carousel-item">
-								<img src="assets/img/carrusel2.jpg" class="d-block w-100" alt="Carrusel Index">
-							</div>
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
-					</div>
-				</div>
-			</div>
-            <!-- Cierre fila carrusel -->
-		</section><br>
-		<!-- Cierre sección carrusel ... -->
         <!-- Apertura fila (1) del Nosotros -->
-        <div class="row padding">
-            <div class="col-lg-12 col-md-12 col-xs-12">
+        <div class="row padding contenido">
+            <div class="col-lg-6 col-md-6 col-sm-12">
                 <!-- Apertura sección nosotros -->
-                <section class="d-flex justify-content-evenly flex-sm-posicion">
+                <section>
                     <div class="d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-center">Sobre Nosotros</h2>
+                        <h2 class="text-center text-uppercase">Sobre Nosotros</h2>
                         <span class="index__texto">
-                        Empresa nueva y divertida
+                        En Aura Dermo creemos en la importancia del cuidado personal y el bienestar físico. Materializamos un sueño de crear un pequeño emprendimiento donde cosmetologas ofrezcamos productos de marcas nacionales accesibles, somos un shop online con mas de 1000 productos. Buscamos incorporar y ofrecer productos al alcance de todos.
                         </span>
                     </div>
-                    <img src="assets/img/index.jpg" alt="Nosotros: Tienda virtual dedicada a la cosmética de marcas nacionales, fomentado el cuidado de la piel" class="img-fluid" data-aos="zoom-in-up" data-aos-duration="1500">
                 </section>
                 <!-- Cierre sección nosotros -->
             </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="d-flex justify-content-center">
+                    <!-- Logo -->
+                    <img src="assets/img/logo.png" alt="Nosotros: Tienda virtual dedicada a la cosmética de marcas nacionales, fomentado el cuidado de la piel" class="nosotros--img" data-aos="zoom-in-up" data-aos-duration="1500">
+                </div>
+            </div>
         </div><br>
         <!-- Cierre fila (1) del Nosotros -->
-        <!-- Apertura fila (2) del contenido -->
+        <!-- Apertura fila (2) carrusel -->
         <div class="row padding">
-            <div class="col-lg-6 col-md-6 col-xs-12">
-                <!-- Apertura sección asesoramiento -->
-                <section class="asesoramiento--box">
-                    <h2 class="text-center">Asesoramiento</h2>
-                    <p class="text-center">Envianos un mensaje y sacate todas las dudas</p>
-                </section>
-                <!-- Cierre sección asesoramiento -->
-            </div>
-            <div class="col-lg-6 col-md-6 col-xs-12">
-                <!-- Apertura sección asesoramiento -->
-                <section class="asesoramiento--box">
-                    <h2 class="text-center">Envios</h2>
-                    <p class="text-center">A todo el pais</p>
-                </section>
-                <!-- Cierre sección asesoramiento -->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <!-- Asesoramiento -->
+                        <div class="carousel-item active">
+                            <!-- Imagen 1 carrusel -->
+                            <img src="assets/img/carrusel.jpg" class="d-block w-100" alt="Asesoramiento sin cargo">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Asesoramiento</h2>
+                                <p>Sin cargo</p>
+                                <p>Envianos un mensaje y sacate todas las dudas</p>
+                            </div>
+                        </div>
+                        <!-- Envíos -->
+                        <div class="carousel-item">
+                            <!-- Imagen 2 carrusel -->
+                            <img src="assets/img/carrusel2.jpg" class="d-block w-100" alt="Envios">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Envíos</h2>
+                                <p>A todo el país</p>
+                                <p>Gratis en compras mayores a $4.000</p>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="carousel-item">
+                            <!-- Imagen 3 carrusel -->
+                            <img src="assets/img/carrusel3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Third slide label</h2>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                </div>
             </div>
         </div><br>
-        <!-- Cierre fila (2) del contenido -->
+        <!-- Cierre fila (2) carrusel -->
         <!-- Apertura fila (3) del contenido -->
         <div class="row padding justify-content-center">
-            <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <h2 class="text-center">
                 Catálogos 
                     <span class="etiqueta--new" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
@@ -197,11 +195,17 @@
                     <h5 class="foo__text text-uppercase">Sigamos conectados</h5>
                     <div class="foo__redes--icon">
                         <!-- Facebook -->
-                        <span class="transicionFB"><i class="bi bi-facebook"></i></span>
+                        <a target="_blank" href="https://www.facebook.com/Aura-Dermo-106430495007286" class="transicionFB">
+                            <i class="bi bi-facebook"></i>
+                        </a>
                         <!-- Instagram -->
-                        <span class="transicionIG"><i class="bi bi-instagram"></i></span>
+                        <a target="_blank" href="https://www.instagram.com/auradermo/?r=nametag" class="transicionIG">
+                            <i class="bi bi-instagram"></i>
+                        </a>
                         <!-- Whatsapp -->
-                        <span class="transicionWA"><i class="bi bi-whatsapp"></i></span>
+                        <a target="_blank" href="https://wa.me/message/SOSXVEAI423GJ1" class="transicionWA">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -4,21 +4,15 @@
     .index__texto {
         width: 350px;
         margin: 10px;
-        text-align: center;
+        text-align: justify;
         font-size: 1rem;
         color: rosybrown;
     }
-    // Posición sección index
-    .flex-sm-posicion {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    // Imagen nosotros
+    .nosotros--img {
+        max-width: 50%;
+        height: auto;
     }
-    // Sección asesoramiento
-	.asesoramiento--box {
-		background-color: rgba(233, 221, 212, 0.8);
-		height: 100px;
-	}
     // Sección catálogo
     .flex-sm-catalogo {
         display: flex;
@@ -45,20 +39,20 @@
         margin-bottom: 10px;
         padding: 10px 30px;
         text-align: center;
-    }
-    .catalogo--box a {
-        font-size: 1.2rem;
-        font-family: 'Noto Sans TC', sans-serif;
-        color: rosybrown;
-        text-decoration: none;
-        background-image: linear-gradient(currentColor, currentColor);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size ;
-    }
-    .catalogo--box a:hover {
-        background-size: 100% 2px;
+        a {
+            font-size: 1.2rem;
+            font-family: 'Noto Sans TC', sans-serif;
+            color: rosybrown;
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size;
+            &:hover {
+                background-size: 100% 2px;
+            }
+        }
     }
 }
 
@@ -66,18 +60,18 @@
 @media only screen and (min-width:768px) and (max-width:1239px) {
     // Texto index
     .index__texto {
-        width: 390px;
-        margin: 10px;
-        text-align: center;
+        width: 295px;
+        margin-top: 10px;
+        text-align: justify;
         font-size: 1rem;
         color: rosybrown;
     }
-    // Sección asesoramiento
-	.asesoramiento--box {
-		background-color: rgba(233, 221, 212, 0.8);
-		height: 100px;
+    // Imagen nosotros
+    .nosotros--img {
+        max-width: 60%;
+        height: auto;
     }
-    /* Etiqueta nuevo catálogo */
+    // Etiqueta nuevo catálogo
     .etiqueta--new {
         display: inline-block;
         padding: 10px 20px;
@@ -97,20 +91,20 @@
         margin-bottom: 10px;
         padding: 10px 30px;
         text-align: center;
-    }
-    .catalogo--box a {
-        font-size: 1.2rem;
-        font-family: 'Noto Sans TC', sans-serif;
-        color: rosybrown;
-        text-decoration: none;
-        background-image: linear-gradient(currentColor, currentColor);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size ;
-    }
-    .catalogo--box a:hover {
-        background-size: 100% 2px;
+        a {
+            font-size: 1.2rem;
+            font-family: 'Noto Sans TC', sans-serif;
+            color: rosybrown;
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size;
+            &:hover {
+                background-size: 100% 2px;
+            }
+        }
     }
 }
 
@@ -118,15 +112,16 @@
 @media only screen and (min-width:1240px) {
     // Texto index
     .index__texto {
-        padding: 0px 20px;
-        text-align: center;
+        padding: 10px 100px 0px 100px;
+        text-align: justify;
         font-size: 1.2rem;
         color: rosybrown;
+        width: 720px;
     }
-    // Sección asesoramiento
-	.asesoramiento--box {
-		background-color: rgba(233, 221, 212, 0.8);
-		height: 150px;
+    // Imagen nosotros
+    .nosotros--img {
+        max-width: 40%;
+        height: auto;
     }
     // Etiqueta nuevo
     .etiqueta--new {
@@ -140,23 +135,23 @@
     }
     // Sección catálogos
     .catalogo--box {
-        background-color: rgba(233, 221, 212, 0.8);
+        background-color: rgba(233, 221, 212, 0.5);
         margin: 5px;
         padding: 30px;
         text-align: center;
-    }
-    .catalogo--box a {
-        font-size: 1.2rem;
-        font-family: 'Noto Sans TC', sans-serif;
-        color: rosybrown;
-        text-decoration: none;
-        background-image: linear-gradient(currentColor, currentColor);
-        background-position: 0% 100%;
-        background-repeat: no-repeat;
-        background-size: 0% 2px;
-        transition: background-size ;
-    }
-    .catalogo--box a:hover {
-        background-size: 100% 2px;
+        a {
+            font-size: 1.2rem;
+            font-family: 'Noto Sans TC', sans-serif;
+            color: rosybrown;
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size;
+            &:hover {
+                background-size: 100% 2px;
+            }
+        }
     }
 }
