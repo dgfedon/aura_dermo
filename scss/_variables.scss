@@ -6,3 +6,24 @@ $fuente2: 'Noto Sans TC', sans-serif;
 $textoMenor: 1rem;
 $textoMedio: 1.2rem;
 $textoMayor: 1.5rem;
+
+// Mixin
+@mixin justify__content--between {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin flex-column-align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin flex-column-justify-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+@mixin flex-direction-column {
+    display: flex;
+    flex-direction: column;
+}

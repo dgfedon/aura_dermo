@@ -49,7 +49,7 @@ body {
     color: #907369;
     margin-bottom: 5px; }
   h4 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: "Source Sans Pro", sans-serif;
     color: rosybrown;
     margin-top: 15px; }
@@ -156,7 +156,6 @@ header {
   .header__nav--flex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 70px;
     box-shadow: 1px 0px 20px 5px #E9DDD4; }
   .nav__link {
@@ -296,13 +295,13 @@ header {
     .foo__redes--icon a {
       text-decoration: none;
       color: #907369; }
-  .transicionFB:hover {
+  .redes-facebook:hover {
     color: #007BFF;
     transition: 1s; }
-  .transicionIG:hover {
+  .redes-instagram:hover {
     color: #E83E8C;
     transition: 1s; }
-  .transicionWA:hover {
+  .redes-whatsapp:hover {
     color: #25D366;
     transition: 1s; }
   .foo__copy {
@@ -348,10 +347,6 @@ header {
       color: rosybrown;
       margin-top: 10px;
       padding: 0px 5px; }
-  .flex-sm-catalogo {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
   /* Etiqueta nuevo catálogo */
   .etiqueta--new {
     display: inline-block;

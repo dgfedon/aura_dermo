@@ -16,9 +16,7 @@
     }
     // Productos con flex
     .producto__item--flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex-column-align-center;
     }
     // Precio producto
     .producto__item--price {
@@ -57,7 +55,7 @@
             color: beige;
         }
     }
-    /* Imagen borde redondeado */
+    // Imagen borde redondeado
     .img-radius {
         border-radius: 10px 10px 0px 0px;
     }
@@ -85,9 +83,7 @@
     }
     // Productos con flex
     .producto__item--flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex-column-align-center;
     }
     // Precio producto
     .producto__item--price {
@@ -125,7 +121,7 @@
             color: beige;
         }
     }
-    /* Imagen borde redondeado */
+    // Imagen borde redondeado
     .img-radius {
         border-radius: 0px 0px 10px 10px;
     }
@@ -160,9 +156,7 @@
     }
     // Productos con flex
     .producto__item--flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex-column-align-center;
     }
     // Productos texto en lista
     .producto__item--list {
@@ -193,7 +187,7 @@
             color: beige;
         }
     }
-    /* Imagen borde redondeado */
+    // Imagen borde redondeado
     .img-radius {
         border-radius: 0px 0px 10px 10px;
     }

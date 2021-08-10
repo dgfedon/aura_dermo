@@ -21,8 +21,7 @@ header {
 @media only screen and (min-width:0px) and (max-width:767px) {
     // Encabezado de página con flex
     .header__nav--flex {
-        display: flex;
-        justify-content: space-between;
+        @include justify__content--between;
         padding: 0 20px;
         box-shadow: 1px 0px 20px 5px $palido;
     }
@@ -46,8 +45,7 @@ header {
 @media only screen and (min-width:768px) and (max-width:1239px) {
     // Encabezado de página con flex
     .header__nav--flex {
-        display: flex;
-        justify-content: space-between;
+        @include justify__content--between;
         padding: 0 40px;
         box-shadow: 1px 0px 20px 5px $palido;
     }
@@ -74,9 +72,7 @@ header {
 @media only screen and (min-width:1240px) {
     // Encabezado de página con flex
     .header__nav--flex {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include justify__content--between;
         padding: 0 70px;
         box-shadow: 1px 0px 20px 5px $palido;
     }

@@ -42,25 +42,21 @@
         font-size: $textoMenor;
     }
     .fechaNacimiento {
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
         width: 40%;
         margin-bottom: 10px;
     }
     .sexo {
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
         width: 40%;
         margin-bottom: 10px;
     }
     .intereses {
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
         margin-bottom: 10px;
     }
     .newsletters {
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
     }
     // Botones de formulario
     .form--boton {
@@ -131,25 +127,21 @@
     }
     .fechaNacimiento {
         grid-area: nacimiento;
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
         width: 60%;
     }
     .sexo {
         grid-area: sexo;
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
         width: 50%;
     }
     .intereses {
         grid-area: intereses;
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
     }
     .newsletters {
         grid-area: newsletters;
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
     }
     // Botones de formulario
     .form--boton {
@@ -220,25 +212,21 @@
     }
     .fechaNacimiento {
         grid-area: nacimiento;
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
         width: 60%;
     }
     .sexo {
         grid-area: sexo;
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
         width: 50%;
     }
     .intereses {
         grid-area: intereses;
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
     }
     .newsletters {
         grid-area: newsletters;
-        display: flex;
-        flex-direction: column;
+        @include flex-direction-column;
     }
     // Botones de formulario
     .form--boton {

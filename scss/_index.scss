@@ -4,9 +4,7 @@
 @media only screen and (min-width:0px) and (max-width:767px) {
     // Nosotros index 
     .index--nosotros {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex-column-align-center;
         h1 {
             font-size: $textoMayor;
             font-family: $fuente1;
@@ -40,12 +38,6 @@
             margin-top: 10px;
             padding: 0px 5px;
         }
-    }
-    // Sección catálogo
-    .flex-sm-catalogo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     /* Etiqueta nuevo catálogo */
     .etiqueta--new {
@@ -89,9 +81,7 @@
     // Nosotros index 
     .index--nosotros {
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flex-column-justify-center;
         h1 {
             font-size: $textoMayor;
             font-family: $fuente1;
@@ -142,9 +132,7 @@
     // Posición PDF catálogo
     .catalogo--posicion {
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flex-column-justify-center;
     }
     // Sección catálogos
     .catalogo--box {
@@ -174,9 +162,7 @@
     // Nosotros index 
     .index--nosotros {
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flex-column-justify-center;
         h1 {
             font-size: $textoMayor;
             font-family: $fuente1;
@@ -222,9 +208,7 @@
     // Posición PDF catálogo
     .catalogo--posicion {
         height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        @include flex-column-justify-center;
     }
     // Sección catálogos
     .catalogo--box {
