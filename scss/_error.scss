@@ -1,0 +1,50 @@
+@import "variables";
+
+// Fondo error 404
+.error__fondo {
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+// Contenedor mensaje error
+.error__mensaje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+// Título
+.error__titulo {
+    color: $escarcha;
+    font-size: 4rem;
+    font-family: $fuente1;
+    margin: 0;
+}
+// Estilo enlace home
+.error__enlace {
+    font-size: 1.5rem;
+    font-family: $fuente1;
+    color: $escarcha;
+}
+// Texto pie de página
+.error__copy {
+    min-height: 100px;
+    width: 100%;
+    p {
+    color: $escarcha;
+    font-family: $fuente2;
+    text-align: center;
+    }
+}
+// Animación título 
+@keyframes error {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30PX);}
+    60% {transform: translateY(-15PX);}
+}
+.animacionError {
+    animation-name: error;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
