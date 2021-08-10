@@ -201,7 +201,7 @@ header {
         text-decoration: none;
         color: rosybrown; }
         .foo__list li a:hover {
-          padding-left: 10px; }
+          padding-left: 15px; }
   .foo__redes--icon {
     font-size: 2.5rem;
     text-align: center; }
@@ -223,7 +223,7 @@ header {
     padding: 15px 40px; }
     .foo__copy p {
       color: #907369;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
       text-align: center;
       margin: 0; } }
@@ -234,50 +234,6 @@ header {
     border-top: 2px solid #f9f1f0;
     padding: 20px 40px 20px 60px;
     margin-top: 10px; }
-  .foo__text {
-    color: #907369;
-    font-family: "Noto Sans TC", sans-serif; }
-  .foo__list {
-    padding: 0; }
-    .foo__list li {
-      list-style-type: none;
-      color: rosybrown;
-      font-size: 1rem; }
-      .foo__list li a {
-        text-decoration: none;
-        color: rosybrown; }
-        .foo__list li a:hover {
-          padding-left: 10px; }
-  .foo__redes--icon {
-    font-size: 2.5rem; }
-    .foo__redes--icon a {
-      text-decoration: none;
-      color: #907369; }
-  .transicionFB:hover {
-    color: #007BFF;
-    transition: 1s; }
-  .transicionIG:hover {
-    color: #E83E8C;
-    transition: 1s; }
-  .transicionWA:hover {
-    color: #25D366;
-    transition: 1s; }
-  .foo__copy {
-    background: #f9f1f0;
-    padding: 15px 40px 15px 40px; }
-    .foo__copy p {
-      color: #907369;
-      font-size: 1.2rem;
-      font-family: "Noto Sans TC", sans-serif;
-      text-align: center;
-      margin: 0; } }
-
-@media only screen and (min-width: 1240px) {
-  .foo {
-    height: 200px;
-    border-top: 2px solid #f9f1f0;
-    padding: 20px 50px 20px 140px;
-    margin-top: 15px; }
   .foo__text {
     color: #907369;
     font-family: "Noto Sans TC", sans-serif; }
@@ -308,10 +264,54 @@ header {
     transition: 1s; }
   .foo__copy {
     background: #f9f1f0;
+    padding: 15px 40px 15px 40px; }
+    .foo__copy p {
+      color: #907369;
+      font-size: 1rem;
+      font-family: "Noto Sans TC", sans-serif;
+      text-align: center;
+      margin: 0; } }
+
+@media only screen and (min-width: 1240px) {
+  .foo {
+    height: 200px;
+    border-top: 2px solid #f9f1f0;
+    padding: 20px 50px 20px 140px;
+    margin-top: 15px; }
+  .foo__text {
+    color: #907369;
+    font-family: "Noto Sans TC", sans-serif; }
+  .foo__list {
+    padding: 0; }
+    .foo__list li {
+      list-style-type: none;
+      color: rosybrown;
+      font-size: 1rem; }
+      .foo__list li a {
+        text-decoration: none;
+        color: rosybrown; }
+        .foo__list li a:hover {
+          padding-left: 20px; }
+  .foo__redes--icon {
+    font-size: 2.5rem; }
+    .foo__redes--icon a {
+      text-decoration: none;
+      color: #907369; }
+  .transicionFB:hover {
+    color: #007BFF;
+    transition: 1s; }
+  .transicionIG:hover {
+    color: #E83E8C;
+    transition: 1s; }
+  .transicionWA:hover {
+    color: #25D366;
+    transition: 1s; }
+  .foo__copy {
+    background: #f9f1f0;
     padding: 15px 40px; }
     .foo__copy p {
       color: #907369;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
       text-align: center;
       margin: 0; } }
@@ -331,7 +331,7 @@ header {
       border-bottom: 2px solid #E9DDD4;
       width: 260px; }
     .index--nosotros span {
-      width: 390px;
+      width: 290px;
       margin: 10px;
       text-align: justify;
       font-size: 1rem;
@@ -340,7 +340,8 @@ header {
   .asesoramiento--box {
     background-color: rgba(233, 221, 212, 0.5);
     height: 110px;
-    margin-bottom: 20px;
+    padding: 20px 0px;
+    margin: 20px 0px;
     text-align: center; }
     .asesoramiento--box p {
       font-size: 1rem;
@@ -405,7 +406,8 @@ header {
   .asesoramiento--box {
     background-color: rgba(233, 221, 212, 0.5);
     height: 110px;
-    margin-bottom: 20px;
+    padding: 20px 0px;
+    margin: 20px 0px;
     text-align: center; }
     .asesoramiento--box p {
       font-size: 1rem;
@@ -469,7 +471,8 @@ header {
   .asesoramiento--box {
     background-color: rgba(233, 221, 212, 0.5);
     height: 110px;
-    margin-bottom: 20px;
+    padding: 20px 0px;
+    margin: 20px 0px;
     text-align: center; }
     .asesoramiento--box p {
       font-size: 1.2rem;

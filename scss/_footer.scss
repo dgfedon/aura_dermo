@@ -31,7 +31,7 @@
 				text-decoration: none;
 				color: rosybrown;
 				&:hover {
-					padding-left: 10px;
+					padding-left: 15px;
 				}
 			}
 		}
@@ -66,7 +66,7 @@
 		// Texto copy pie de página
 		p {
 			color: $escarcha;
-			font-size: $textoMedio;
+			font-size: $textoMenor;
 			font-family: $fuente2;
 			text-align: center;
 			margin: 0;
@@ -99,7 +99,7 @@
 				text-decoration: none;
 				color: rosybrown;
 				&:hover {
-					padding-left: 10px;
+					padding-left: 15px;
 				}
 			}
 		}
@@ -133,7 +133,7 @@
 		// Texto copy pie de página
 		p {
 			color: $escarcha;
-			font-size: $textoMedio;
+			font-size: $textoMenor;
 			font-family: $fuente2;
 			text-align: center;
 			margin: 0;
@@ -166,7 +166,7 @@
 				text-decoration: none;
 				color: rosybrown;
 				&:hover {
-					padding-left: 15px;
+					padding-left: 20px;
 				}
 			}
 		}
@@ -200,7 +200,7 @@
 		// Texto copy pie de página
 		p {
 			color: $escarcha;
-			font-size: $textoMedio;
+			font-size: $textoMenor;
 			font-family: $fuente2;
 			text-align: center;
 			margin: 0;
