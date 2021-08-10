@@ -318,7 +318,7 @@ header {
     align-items: center; }
     .index--nosotros h1 {
       font-size: 1.5rem;
-      font-family: fuente1;
+      font-family: "Source Sans Pro", sans-serif;
       color: #907369;
       text-transform: uppercase;
       text-align: center;
@@ -331,6 +331,16 @@ header {
       text-align: justify;
       font-size: 1rem;
       color: rosybrown; }
+  .asesoramiento--box {
+    background-color: rgba(233, 221, 212, 0.5);
+    height: 110px;
+    margin-bottom: 20px;
+    text-align: center; }
+    .asesoramiento--box p {
+      font-size: 1rem;
+      font-family: "Noto Sans TC", sans-serif;
+      color: rosybrown;
+      margin-top: 10px; }
   .flex-sm-catalogo {
     display: flex;
     flex-direction: column;
@@ -348,8 +358,8 @@ header {
     display: none; }
   .catalogo--box {
     background-color: rgba(233, 221, 212, 0.8);
-    margin-bottom: 10px;
-    padding: 10px 30px;
+    margin: 0px 120px 10px 120px;
+    padding: 10px 5px;
     text-align: center; }
     .catalogo--box a {
       font-size: 1.2rem;
@@ -364,18 +374,19 @@ header {
       .catalogo--box a:hover {
         background-size: 100% 2px; } }
 
-@media only screen and (min-width: 768px) and (max-width: 1239px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .index--nosotros {
     display: flex;
     flex-direction: column;
     align-items: center; }
     .index--nosotros h1 {
       font-size: 1.5rem;
-      font-family: fuente1;
+      font-family: "Source Sans Pro", sans-serif;
       color: #907369;
       text-transform: uppercase;
       text-align: center;
-      padding: 65px 0px 10px 0px;
+      margin-top: 20px;
+      padding-bottom: 10px;
       border-bottom: 2px solid #E9DDD4;
       width: 260px; }
     .index--nosotros span {
@@ -384,6 +395,16 @@ header {
       text-align: justify;
       font-size: 1rem;
       color: rosybrown; }
+  .asesoramiento--box {
+    background-color: rgba(233, 221, 212, 0.5);
+    height: 110px;
+    margin-bottom: 20px;
+    text-align: center; }
+    .asesoramiento--box p {
+      font-size: 1rem;
+      font-family: "Noto Sans TC", sans-serif;
+      color: rosybrown;
+      margin-top: 10px; }
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
@@ -396,8 +417,7 @@ header {
     display: none; }
   .catalogo--box {
     background-color: rgba(233, 221, 212, 0.8);
-    margin-bottom: 10px;
-    padding: 10px 30px;
+    padding: 10px;
     text-align: center; }
     .catalogo--box a {
       font-size: 1.2rem;
@@ -412,18 +432,19 @@ header {
       .catalogo--box a:hover {
         background-size: 100% 2px; } }
 
-@media only screen and (min-width: 1240px) {
+@media only screen and (min-width: 992px) {
   .index--nosotros {
     display: flex;
     flex-direction: column;
     align-items: center; }
     .index--nosotros h1 {
       font-size: 1.5rem;
-      font-family: fuente1;
+      font-family: "Source Sans Pro", sans-serif;
       color: #907369;
       text-transform: uppercase;
       text-align: center;
-      padding: 65px 0px 10px 0px;
+      margin-top: 30px;
+      padding-bottom: 10px;
       border-bottom: 2px solid #E9DDD4;
       width: 310px; }
     .index--nosotros span {
@@ -432,6 +453,16 @@ header {
       font-size: 1.2rem;
       color: rosybrown;
       width: 720px; }
+  .asesoramiento--box {
+    background-color: rgba(233, 221, 212, 0.5);
+    height: 110px;
+    margin-bottom: 20px;
+    text-align: center; }
+    .asesoramiento--box p {
+      font-size: 1.2rem;
+      font-family: "Noto Sans TC", sans-serif;
+      color: rosybrown;
+      margin-top: 10px; }
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
@@ -443,7 +474,7 @@ header {
   .catalogo--box {
     background-color: rgba(233, 221, 212, 0.5);
     margin: 5px;
-    padding: 30px;
+    padding: 15px;
     text-align: center; }
     .catalogo--box a {
       font-size: 1.2rem;

@@ -7,7 +7,7 @@
         align-items: center;
         h1 {
             font-size: 1.5rem;
-            font-family: fuente1;
+            font-family: $fuente1;
             color: $escarcha;
             text-transform: uppercase;
             text-align: center;
@@ -21,6 +21,19 @@
             text-align: justify;
             font-size: 1rem;
             color: rosybrown;
+        }
+    }
+    // Sección asesoramiento
+    .asesoramiento--box {
+        background-color: rgba(233, 221, 212, 0.5);
+        height: 110px;
+        margin-bottom: 20px;
+        text-align: center;
+        p {
+            font-size: 1rem;
+            font-family: $fuente2;
+            color: rosybrown;
+            margin-top: 10px;
         }
     }
     // Sección catálogo
@@ -46,8 +59,8 @@
     // Sección catálogos
     .catalogo--box {
         background-color: rgba(233, 221, 212, 0.8);
-        margin-bottom: 10px;
-        padding: 10px 30px;
+        margin: 0px 120px 10px 120px;
+        padding: 10px 5px;
         text-align: center;
         a {
             font-size: 1.2rem;
@@ -67,7 +80,7 @@
 }
 
 // Vista tablet
-@media only screen and (min-width:768px) and (max-width:1239px) {
+@media only screen and (min-width:768px) and (max-width:991px) {
     // Nosotros index 
     .index--nosotros {
         display: flex;
@@ -75,11 +88,12 @@
         align-items: center;
         h1 {
             font-size: 1.5rem;
-            font-family: fuente1;
+            font-family: $fuente1;
             color: $escarcha;
             text-transform: uppercase;
             text-align: center;
-            padding: 65px 0px 10px 0px;
+            margin-top: 20px;
+            padding-bottom: 10px;
             border-bottom: 2px solid $palido;
             width: 260px;
         }
@@ -89,6 +103,19 @@
             text-align: justify;
             font-size: 1rem;
             color: rosybrown;
+        }
+    }
+    // Sección asesoramiento
+    .asesoramiento--box {
+        background-color: rgba(233, 221, 212, 0.5);
+        height: 110px;
+        margin-bottom: 20px;
+        text-align: center;
+        p {
+            font-size: 1rem;
+            font-family: $fuente2;
+            color: rosybrown;
+            margin-top: 10px;
         }
     }
     // Etiqueta nuevo catálogo
@@ -108,8 +135,7 @@
     // Sección catálogos
     .catalogo--box {
         background-color: rgba(233, 221, 212, 0.8);
-        margin-bottom: 10px;
-        padding: 10px 30px;
+        padding: 10px;
         text-align: center;
         a {
             font-size: 1.2rem;
@@ -129,7 +155,7 @@
 }
 
 // Vista desktop
-@media only screen and (min-width:1240px) {
+@media only screen and (min-width:992px) {
     // Nosotros index 
     .index--nosotros {
         display: flex;
@@ -137,11 +163,12 @@
         align-items: center;
         h1 {
             font-size: 1.5rem;
-            font-family: fuente1;
+            font-family: $fuente1;
             color: $escarcha;
             text-transform: uppercase;
             text-align: center;
-            padding: 65px 0px 10px 0px;
+            margin-top: 30px;
+            padding-bottom: 10px;
             border-bottom: 2px solid $palido;
             width: 310px;
         }
@@ -151,6 +178,19 @@
             font-size: 1.2rem;
             color: rosybrown;
             width: 720px;
+        }
+    }
+    // Sección asesoramiento
+    .asesoramiento--box {
+        background-color: rgba(233, 221, 212, 0.5);
+        height: 110px;
+        margin-bottom: 20px;
+        text-align: center;
+        p {
+            font-size: 1.2rem;
+            font-family: $fuente2;
+            color: rosybrown;
+            margin-top: 10px;
         }
     }
     // Etiqueta nuevo
@@ -167,7 +207,7 @@
     .catalogo--box {
         background-color: rgba(233, 221, 212, 0.5);
         margin: 5px;
-        padding: 30px;
+        padding: 15px;
         text-align: center;
         a {
             font-size: 1.2rem;
