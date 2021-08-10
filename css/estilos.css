@@ -340,7 +340,8 @@ header {
       font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
-      margin-top: 10px; }
+      margin-top: 10px;
+      padding: 0px 5px; }
   .flex-sm-catalogo {
     display: flex;
     flex-direction: column;
@@ -405,7 +406,8 @@ header {
       font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
-      margin-top: 10px; }
+      margin-top: 10px;
+      padding: 0px 5px; }
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
@@ -469,7 +471,8 @@ header {
       font-size: 1.2rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
-      margin-top: 10px; }
+      margin-top: 10px;
+      padding: 0px 5px; }
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
