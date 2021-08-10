@@ -9,13 +9,18 @@ header {
 }
 // Margen del contenido 
 .contenido {
-    margin-top: 80px;
+    margin-top: 120px;
 }
+// Logo
+.imgLogo {
+    width: 80px;
+    height: 80px;
+}
+
 // Vista mobile
 @media only screen and (min-width:0px) and (max-width:767px) {
     // Encabezado de página con flex
     .header__nav--flex {
-        color: $palido;
         display: flex;
         justify-content: space-between;
         padding: 0 20px;
@@ -48,17 +53,19 @@ header {
     }
     // Lista de navegacion
     .nav__link {
-        color: $palido;
         font-size: $textoMenor;
         font-family: $fuente2;
         padding: 5px 10px;
         a {
-            text-decoration: none;
             color: $escarcha;
-            &:hover {
-                padding: 5px 10px;
-                color: $palido;
-                background-color: $beigeOscuro;
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .1s;
+            &:hover, &:focus {
+                background-size: 100% 2px;
             }
         }
     }
@@ -68,9 +75,9 @@ header {
     // Encabezado de página con flex
     .header__nav--flex {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
-        padding: 0 40px;
+        padding: 0 70px;
         box-shadow: 1px 0px 20px 5px $palido;
     }
     // Lista de navegacion
@@ -87,7 +94,7 @@ header {
             background-position: 0% 100%;
             background-repeat: no-repeat;
             background-size: 0% 2px;
-            transition: background-size .2s;
+            transition: background-size .3s;
             &:hover, &:focus {
                 background-size: 100% 2px;
             }
