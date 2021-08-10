@@ -27,3 +27,9 @@ $textoMayor: 1.5rem;
     display: flex;
     flex-direction: column;
 }
+@mixin nav-decoracion {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+}

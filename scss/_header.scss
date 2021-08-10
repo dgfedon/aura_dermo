@@ -57,10 +57,7 @@ header {
         a {
             color: $escarcha;
             text-decoration: none;
-            background-image: linear-gradient(currentColor, currentColor);
-            background-position: 0% 100%;
-            background-repeat: no-repeat;
-            background-size: 0% 2px;
+            @include nav-decoracion;
             transition: background-size .1s;
             &:hover, &:focus {
                 background-size: 100% 2px;
@@ -85,10 +82,7 @@ header {
             color: $escarcha;
             text-decoration: none;
             padding-bottom: 5px;
-            background-image: linear-gradient(currentColor, currentColor);
-            background-position: 0% 100%;
-            background-repeat: no-repeat;
-            background-size: 0% 2px;
+            @include nav-decoracion;
             transition: background-size .3s;
             &:hover, &:focus {
                 background-size: 100% 2px;

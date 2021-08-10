@@ -64,10 +64,7 @@
             font-family: $fuente2;
             color: rosybrown;
             text-decoration: none;
-            background-image: linear-gradient(currentColor, currentColor);
-            background-position: 0% 100%;
-            background-repeat: no-repeat;
-            background-size: 0% 2px;
+            @include nav-decoracion;
             transition: background-size;
             &:hover {
                 background-size: 100% 2px;
@@ -145,10 +142,7 @@
             font-family: $fuente2;
             color: rosybrown;
             text-decoration: none;
-            background-image: linear-gradient(currentColor, currentColor);
-            background-position: 0% 100%;
-            background-repeat: no-repeat;
-            background-size: 0% 2px;
+            @include nav-decoracion;
             transition: background-size;
             &:hover {
                 background-size: 100% 2px;
@@ -221,10 +215,7 @@
             font-family: $fuente2;
             color: rosybrown;
             text-decoration: none;
-            background-image: linear-gradient(currentColor, currentColor);
-            background-position: 0% 100%;
-            background-repeat: no-repeat;
-            background-size: 0% 2px;
+            @include nav-decoracion;
             transition: background-size;
             &:hover {
                 background-size: 100% 2px;
