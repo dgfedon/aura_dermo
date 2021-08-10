@@ -15,7 +15,7 @@ body {
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: "Source Sans Pro", sans-serif;
     color: #907369;
     margin-bottom: 5px; }
@@ -669,7 +669,7 @@ header {
     margin: 10px 15px 30px 15px; }
     .form__contacto h5 {
       text-align: center;
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
       height: 50px;
       margin: 10px 0;

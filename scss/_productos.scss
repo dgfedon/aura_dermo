@@ -1,3 +1,5 @@
+@import "variables";
+
 // Vista mobile
 @media only screen and (min-width:0px) and (max-width:767px) {
     // Productos tienda
@@ -151,7 +153,7 @@
     }
     // Precio producto
     .producto__item--price {
-        font-size: 1.2rem;
+        font-size: $textoMedio;
 		font-family: $fuente2;
         color: $beigeOscuro;
         margin-bottom: 15px;
@@ -199,7 +201,7 @@
 	// Precio sale
     .producto__item--sale {
         color: gainsboro;
-		font-size: 1.2rem;
+		font-size: $textoMedio;
         text-decoration-line: line-through;
     }
 }
