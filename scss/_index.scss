@@ -8,11 +8,11 @@
         h1 {
             font-size: 1.5rem;
             font-family: 'Source Sans Pro', sans-serif;
-            color: #907369;
+            color: $escarcha;
             text-transform: uppercase;
             text-align: center;
             padding-bottom: 10px;
-            border-bottom: 2px solid #E9DDD4;
+            border-bottom: 2px solid $palido;
             width: 260px;
         }
         span {
@@ -36,8 +36,8 @@
         font-size: 1.2rem;
         line-height: 1;
         border-radius: 5px;
-        background-color: #B49C94;
-        color: #E9DDD4;
+        background-color: $beigeOscuro;
+        color: $palido;
     }
 	// Eliminar imagen catalogo index
 	.imgCatalogo {
@@ -76,11 +76,11 @@
         h1 {
             font-size: 1.5rem;
             font-family: 'Source Sans Pro', sans-serif;
-            color: #907369;
+            color: $escarcha;
             text-transform: uppercase;
             text-align: center;
             padding: 65px 0px 10px 0px;
-            border-bottom: 2px solid #E9DDD4;
+            border-bottom: 2px solid $palido;
             width: 260px;
         }
         span {
@@ -98,8 +98,8 @@
         font-size: 1.2rem;
         line-height: 1;
         border-radius: 5px;
-        background-color: #B49C94;
-        color: #E9DDD4;
+        background-color: $beigeOscuro;
+        color: $palido;
     }
     // Eliminar imagen catalogo index
 	.imgCatalogo {
@@ -138,11 +138,11 @@
         h1 {
             font-size: 1.5rem;
             font-family: 'Source Sans Pro', sans-serif;
-            color: #907369;
+            color: $escarcha;
             text-transform: uppercase;
             text-align: center;
             padding: 65px 0px 10px 0px;
-            border-bottom: 2px solid #E9DDD4;
+            border-bottom: 2px solid $palido;
             width: 310px;
         }
         span {
@@ -160,8 +160,8 @@
         font-size: 1.2rem;
         line-height: 1;
         border-radius: 5px;
-        background-color: #B49C94;
-        color: #E9DDD4;
+        background-color: $beigeOscuro;
+        color: $palido;
     }
     // Sección catálogos
     .catalogo--box {

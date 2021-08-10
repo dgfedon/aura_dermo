@@ -3,7 +3,7 @@
     // Sección iconos de contactos
     .contacto--icon {
         font-size: 3rem;
-		color: #E9DDD4;
+		color: $palido;
 		text-align: center;
         &:hover {
             transform: scale(1.1);
@@ -14,10 +14,10 @@
         width: auto;
         height: auto;
         background: #fffffa;
-        box-shadow: 12px 13px 20px #E9DDD4;
+        box-shadow: 12px 13px 20px $palido;
         padding: 10px;
         border-radius: 20px;
-        border-top: 5px solid #E9DDD4;
+        border-top: 5px solid $palido;
         color: rosybrown;
         margin: 10px 15px 30px 15px;
         h5 {
@@ -26,10 +26,10 @@
             font-family: 'Noto Sans TC', sans-serif;
             height: 50px;
             margin: 10px 0;
-            border-bottom: 3px solid #E9DDD4;
+            border-bottom: 3px solid $palido;
         }
         input, select, textarea {
-            border: 2px solid #E9DDD4;
+            border: 2px solid $palido;
         }
     }
     // Datos personales
@@ -66,14 +66,14 @@
         height: 30px;
         border: none;
         border-radius: 5px;
-        background: #E9DDD4;
-        color: #907369;
+        background: $palido;
+        color: $escarcha;
         font-size: 1rem;
         text-align: center;
         margin-top: 20px;
         &:hover {
-            background: #B49C94;
-            color: #E9DDD4;
+            background: $beigeOscuro;
+            color: $palido;
         }
     }
 }
@@ -83,7 +83,7 @@
     // Sección iconos de contactos
     .contacto--icon {
         font-size: 3.5rem;
-		color: #E9DDD4;
+		color: $palido;
 		text-align: center;
         &:hover {
             transform: scale(1.1);
@@ -95,10 +95,10 @@
         height: auto;
         background: #fffffa;
         margin: 10px auto 30px auto;
-        box-shadow: 12px 13px 20px #E9DDD4;
+        box-shadow: 12px 13px 20px $palido;
         padding: 10px 20px;
         border-radius: 20px;
-        border-top: 5px solid #E9DDD4;
+        border-top: 5px solid $palido;
         color: rosybrown;
         h5 {
             text-align: center;
@@ -106,10 +106,10 @@
             font-family: 'Noto Sans TC', sans-serif;
             height: 50px;
             margin: 10px 0;
-            border-bottom: 3px solid #E9DDD4;
+            border-bottom: 3px solid $palido;
         }
         input, select, textarea {
-            border: 2px solid #E9DDD4;
+            border: 2px solid $palido;
         }
     }
     // Datos personales
@@ -155,13 +155,13 @@
         height: 30px;
         border: none;
         border-radius: 5px;
-        background: #E9DDD4;
-        color: #907369;
+        background: $palido;
+        color: $escarcha;
         font-size: 1rem;
         text-align: center;
         margin: 15px 0;
         &:hover {
-            background: #B49C94;
+            background: $beigeOscuro;
             color: beige;
         }
     }
@@ -172,7 +172,7 @@
     // Sección iconos de contactos
     .contacto--icon {
         font-size: 4rem;
-		color: #E9DDD4;
+		color: $palido;
 		text-align: center;
         &:hover {
             transform: scale(1.1);
@@ -184,10 +184,10 @@
         height: auto;
         background: #fffffa;
         margin: 10px auto 40px auto;
-        box-shadow: 12px 13px 20px #E9DDD4;
+        box-shadow: 12px 13px 20px $palido;
         padding: 10px 20px;
         border-radius: 20px;
-        border-top: 5px solid #E9DDD4;
+        border-top: 5px solid $palido;
         color: rosybrown;
         h5 {
             text-align: center;
@@ -195,10 +195,10 @@
             font-family: 'Noto Sans TC', sans-serif;
             height: 50px;
             margin: 10px 0;
-            border-bottom: 3px solid #E9DDD4;
+            border-bottom: 3px solid $palido;
         }
         input, select, textarea {
-            border: 2px solid #E9DDD4;
+            border: 2px solid $palido;
         }
     }
     // Datos personales
@@ -244,14 +244,14 @@
         height: 30px;
         border: none;
         border-radius: 5px;
-        background: #E9DDD4;
-        color: #907369;
+        background: $palido;
+        color: $escarcha;
         font-size: 1rem;
         text-align: center;
         margin: 20px 0;
         &:hover {
-            background: #B49C94;
-            color: #E9DDD4;
+            background: $beigeOscuro;
+            color: $palido;
         }
     }
 }

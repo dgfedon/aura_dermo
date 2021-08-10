@@ -1,3 +1,5 @@
+@import "colores-tamaños";
+
 // Reset
 * {
 	margin: 0;
@@ -23,12 +25,13 @@ body {
     $size: (
         h2: 1.5rem,
         h4: 1.2rem,
+        h3: 1.4rem,
     );
     // Títulos
     h2 {
         font-size: map-get($size, h2);
         font-family: 'Source Sans Pro', sans-serif;
-        color: #907369;
+        color: $escarcha;
         margin-bottom: 5px;
     }
     // Nombre de productos
@@ -42,7 +45,7 @@ body {
     .linea--division {
         width: 80%;
         height: 2px;
-        background-color: #E9DDD4;
+        background-color: $palido;
         margin: auto;
         margin-bottom: 15px;
     }
@@ -55,7 +58,7 @@ body {
         height: 100px;
         background-color: rgba(233, 221, 212, 0.8);
         h3 {
-            font-size: 1.4rem;
+            font-size: map-get($size, h3);
             font-family: 'Noto Sans TC', sans-serif;
             color: rosybrown;
             text-align: center;
@@ -70,12 +73,13 @@ body {
     $size: (
         h2: 1.8rem,
         h4: 1.5rem,
+        h3: 1.4rem,
     );
     // Títulos
     h2 {
         font-size: map-get($size, h2);
         font-family: 'Source Sans Pro', sans-serif;
-        color: #907369;
+        color: $escarcha;
         margin-bottom: 5px;
     }
     // Nombre de productos
@@ -89,7 +93,7 @@ body {
     .linea--division {
         width: 80%;
         height: 2px;
-        background-color: #E9DDD4;
+        background-color: $palido;
         margin: auto;
         margin-bottom: 20px;
     }
@@ -102,7 +106,7 @@ body {
         height: 100px;
         background-color: rgba(233, 221, 212, 0.8);
         h3 {
-            font-size: 1.5rem;
+            font-size: map-get($size, h3);
             font-family: 'Noto Sans TC', sans-serif;
             color: rosybrown;
             text-align: center;
@@ -117,12 +121,13 @@ body {
     $size: (
         h2: 1.8rem,
         h4: 1.3rem,
+        h3: 2rem,
     );
 	// Títulos
     h2 {
         font-size: map-get($size, h2);
         font-family: 'Source Sans Pro', sans-serif;
-        color: #907369;
+        color: $escarcha;
         margin-bottom: 5px;
     }
     // Nombre de productos
@@ -136,7 +141,7 @@ body {
     .linea--division {
         width: 50%;
         height: 2px;
-        background-color: #E9DDD4;
+        background-color: $palido;
         margin: auto;
         margin-bottom: 20px;
     }
@@ -149,7 +154,7 @@ body {
         height: 150px;
         background-color: rgba(233, 221, 212, 0.8);
         h3 {
-            font-size: 2rem;
+            font-size: map-get($size, h3);
             font-family: 'Noto Sans TC', sans-serif;
             color: rosybrown;
             text-align: center;
