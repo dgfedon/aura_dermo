@@ -19,7 +19,7 @@
             width: 295px;
             margin: 10px;
             text-align: justify;
-            font-size: 1rem;
+            font-size: $textoMenor;
             color: rosybrown;
         }
     }
@@ -30,7 +30,7 @@
         margin-bottom: 20px;
         text-align: center;
         p {
-            font-size: 1rem;
+            font-size: $textoMenor;
             font-family: $fuente2;
             color: rosybrown;
             margin-top: 10px;
@@ -103,7 +103,7 @@
         span {
             padding: 0px 30px;
             text-align: justify;
-            font-size: 1rem;
+            font-size: $textoMenor;
             color: rosybrown;
         }
     }
@@ -114,7 +114,7 @@
         margin-bottom: 20px;
         text-align: center;
         p {
-            font-size: 1rem;
+            font-size: $textoMenor;
             font-family: $fuente2;
             color: rosybrown;
             margin-top: 10px;

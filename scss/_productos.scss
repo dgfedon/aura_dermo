@@ -20,14 +20,14 @@
     }
     // Precio producto
     .producto__item--price {
-        font-size: 1rem;
+        font-size: $textoMenor;
 		font-family: $fuente2;
         color: $beigeOscuro;
         margin-bottom: 15px;
     }
     // Productos texto en lista
     .producto__item--list {
-        font-size: 1rem;
+        font-size: $textoMenor;
         font-family: $fuente2;
         color: rosybrown;
         padding: 0px 10px;
@@ -42,7 +42,7 @@
     // Botón agregar al carrito
     .producto__item--btn {
         background: $palido;
-        font-size: 1rem;
+        font-size: $textoMenor;
         color: $escarcha;
         text-decoration: none;
         text-align: center;
@@ -63,7 +63,7 @@
 	// Precio sale
     .producto__item--sale {
         color: gainsboro;
-		font-size: 1rem;
+		font-size: $textoMenor;
         text-decoration-line: line-through;
     }
 }
@@ -89,14 +89,14 @@
     }
     // Precio producto
     .producto__item--price {
-        font-size: 1rem;
+        font-size: $textoMenor;
 		font-family: $fuente2;
         color: $beigeOscuro;
         margin-bottom: 15px;
     }
     // Productos texto en lista
     .producto__item--list {
-        font-size: 1rem;
+        font-size: $textoMenor;
         font-family: $fuente2;
         color: rosybrown;
         ul {
@@ -110,7 +110,7 @@
     // Botón agregar al carrito
     .producto__item--btn {
         background: $palido;
-        font-size: 1rem;
+        font-size: $textoMenor;
         color: $escarcha;
         text-decoration: none;
         text-align: center;
@@ -131,7 +131,7 @@
 	// Precio sale
     .producto__item--sale {
         color: gainsboro;
-		font-size: 1rem;
+		font-size: $textoMenor;
         text-decoration-line: line-through;
     }
 }
@@ -178,7 +178,7 @@
     // Botón agregar al carrito
     .producto__item--btn {
         background: $palido;
-        font-size: 1rem;
+        font-size: $textoMenor;
         color: $escarcha;
         text-decoration: none;
         text-align: center;

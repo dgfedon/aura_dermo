@@ -10,7 +10,7 @@
 	// Texto encabezados pie de página
 	.foo__text {
 		color: $escarcha;
-		font-size: 1rem;
+		font-size: $textoMenor;
 		font-family: $fuente2;
 		text-align: center;
 		padding-top: 15px;
@@ -24,7 +24,7 @@
 		li {
 			list-style-type: none;
 			color: rosybrown;
-			font-size: 1rem;
+			font-size: $textoMenor;
 			a {
 				text-decoration: none;
 				color: rosybrown;
@@ -92,7 +92,7 @@
 		li {
 			list-style-type: none;
 			color: rosybrown;
-			font-size: 1rem;
+			font-size: $textoMenor;
 			a {
 				text-decoration: none;
 				color: rosybrown;
@@ -159,7 +159,7 @@
 		li {
 			list-style-type: none;
 			color: rosybrown;
-			font-size: 1rem;
+			font-size: $textoMenor;
 			a {
 				text-decoration: none;
 				color: rosybrown;
