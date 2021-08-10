@@ -21,14 +21,14 @@
     // Precio producto
     .producto__item--price {
         font-size: 1rem;
-		font-family: 'Noto Sans TC', sans-serif;
+		font-family: $fuente2;
         color: $beigeOscuro;
         margin-bottom: 15px;
     }
     // Productos texto en lista
     .producto__item--list {
         font-size: 1rem;
-        font-family: 'Noto Sans TC', sans-serif;
+        font-family: $fuente2;
         color: rosybrown;
         padding: 0px 10px;
         ul {
@@ -90,14 +90,14 @@
     // Precio producto
     .producto__item--price {
         font-size: 1rem;
-		font-family: 'Noto Sans TC', sans-serif;
+		font-family: $fuente2;
         color: $beigeOscuro;
         margin-bottom: 15px;
     }
     // Productos texto en lista
     .producto__item--list {
         font-size: 1rem;
-        font-family: 'Noto Sans TC', sans-serif;
+        font-family: $fuente2;
         color: rosybrown;
         ul {
             padding: 0;
@@ -152,7 +152,7 @@
     // Precio producto
     .producto__item--price {
         font-size: 1.2rem;
-		font-family: 'Noto Sans TC', sans-serif;
+		font-family: $fuente2;
         color: $beigeOscuro;
         margin-bottom: 15px;
     }
@@ -165,7 +165,7 @@
     // Productos texto en lista
     .producto__item--list {
         font-size: 0.95rem;
-        font-family: 'Noto Sans TC', sans-serif;
+        font-family: $fuente2;
         color: rosybrown;
         ul {
             padding: 0;

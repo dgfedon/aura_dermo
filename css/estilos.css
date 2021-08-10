@@ -16,12 +16,12 @@ body {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   h2 {
     font-size: 1.5rem;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #907369;
     margin-bottom: 5px; }
   h4 {
     font-size: 1.2rem;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: rosybrown;
     margin-top: 15px; }
   .linea--division {
@@ -37,7 +37,7 @@ body {
     background-color: rgba(233, 221, 212, 0.8); }
     .comentario--box h3 {
       font-size: 1.4rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-align: center;
       padding-top: 30px; } }
@@ -45,12 +45,12 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 1239px) {
   h2 {
     font-size: 1.8rem;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #907369;
     margin-bottom: 5px; }
   h4 {
     font-size: 1.5rem;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: rosybrown;
     margin-top: 15px; }
   .linea--division {
@@ -66,7 +66,7 @@ body {
     background-color: rgba(233, 221, 212, 0.8); }
     .comentario--box h3 {
       font-size: 1.4rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-align: center;
       padding-top: 30px; } }
@@ -74,12 +74,12 @@ body {
 @media only screen and (min-width: 1240px) {
   h2 {
     font-size: 1.8rem;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: #907369;
     margin-bottom: 5px; }
   h4 {
     font-size: 1.3rem;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     color: rosybrown;
     margin-top: 10px; }
   .linea--division {
@@ -95,7 +95,7 @@ body {
     background-color: rgba(233, 221, 212, 0.8); }
     .comentario--box h3 {
       font-size: 2rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-align: center;
       padding-top: 50px; } }
@@ -118,7 +118,7 @@ header {
     box-shadow: 1px 0px 20px 5px #E9DDD4; }
   .nav__link {
     font-size: 1rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     padding: 5px 10px; }
     .nav__link a {
       text-decoration: none;
@@ -137,7 +137,7 @@ header {
   .nav__link {
     color: #E9DDD4;
     font-size: 1rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     padding: 5px 10px; }
     .nav__link a {
       text-decoration: none;
@@ -157,7 +157,7 @@ header {
   .nav__link {
     color: #E9DDD4;
     font-size: 1rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     padding: 0px 15px; }
     .nav__link a {
       color: #907369;
@@ -180,7 +180,7 @@ header {
   .foo__text {
     color: #907369;
     font-size: 1rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     text-align: center;
     padding-top: 15px; }
   .foo__list {
@@ -219,7 +219,7 @@ header {
     .foo__copy p {
       color: #907369;
       font-size: 1.2rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       text-align: center;
       margin: 0; } }
 
@@ -231,7 +231,7 @@ header {
     margin-top: 10px; }
   .foo__text {
     color: #907369;
-    font-family: 'Noto Sans TC', sans-serif; }
+    font-family: "Noto Sans TC", sans-serif; }
   .foo__list {
     padding: 0; }
     .foo__list li {
@@ -263,7 +263,7 @@ header {
     .foo__copy p {
       color: #907369;
       font-size: 1.2rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       text-align: center;
       margin: 0; } }
 
@@ -275,7 +275,7 @@ header {
     margin-top: 15px; }
   .foo__text {
     color: #907369;
-    font-family: 'Noto Sans TC', sans-serif; }
+    font-family: "Noto Sans TC", sans-serif; }
   .foo__list {
     padding: 0; }
     .foo__list li {
@@ -307,7 +307,7 @@ header {
     .foo__copy p {
       color: #907369;
       font-size: 1.2rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       text-align: center;
       margin: 0; } }
 
@@ -318,7 +318,7 @@ header {
     align-items: center; }
     .index--nosotros h1 {
       font-size: 1.5rem;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: fuente1;
       color: #907369;
       text-transform: uppercase;
       text-align: center;
@@ -353,7 +353,7 @@ header {
     text-align: center; }
     .catalogo--box a {
       font-size: 1.2rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-decoration: none;
       background-image: linear-gradient(currentColor, currentColor);
@@ -371,7 +371,7 @@ header {
     align-items: center; }
     .index--nosotros h1 {
       font-size: 1.5rem;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: fuente1;
       color: #907369;
       text-transform: uppercase;
       text-align: center;
@@ -401,7 +401,7 @@ header {
     text-align: center; }
     .catalogo--box a {
       font-size: 1.2rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-decoration: none;
       background-image: linear-gradient(currentColor, currentColor);
@@ -419,7 +419,7 @@ header {
     align-items: center; }
     .index--nosotros h1 {
       font-size: 1.5rem;
-      font-family: 'Source Sans Pro', sans-serif;
+      font-family: fuente1;
       color: #907369;
       text-transform: uppercase;
       text-align: center;
@@ -447,7 +447,7 @@ header {
     text-align: center; }
     .catalogo--box a {
       font-size: 1.2rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-decoration: none;
       background-image: linear-gradient(currentColor, currentColor);
@@ -474,12 +474,12 @@ header {
     align-items: center; }
   .producto__item--price {
     font-size: 1rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     color: #B49C94;
     margin-bottom: 15px; }
   .producto__item--list {
     font-size: 1rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     color: rosybrown;
     padding: 0px 10px; }
     .producto__item--list ul {
@@ -523,12 +523,12 @@ header {
     align-items: center; }
   .producto__item--price {
     font-size: 1rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     color: #B49C94;
     margin-bottom: 15px; }
   .producto__item--list {
     font-size: 1rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     color: rosybrown; }
     .producto__item--list ul {
       padding: 0;
@@ -567,7 +567,7 @@ header {
       box-shadow: 0px 2px 15px 10px #E9DDD4; }
   .producto__item--price {
     font-size: 1.2rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     color: #B49C94;
     margin-bottom: 15px; }
   .producto__item--flex {
@@ -576,7 +576,7 @@ header {
     align-items: center; }
   .producto__item--list {
     font-size: 0.95rem;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: "Noto Sans TC", sans-serif;
     color: rosybrown; }
     .producto__item--list ul {
       padding: 0;
@@ -624,7 +624,7 @@ header {
     .form__contacto h5 {
       text-align: center;
       font-size: 1.1rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       height: 50px;
       margin: 10px 0;
       border-bottom: 3px solid #E9DDD4; }
@@ -686,7 +686,7 @@ header {
     .form__contacto h5 {
       text-align: center;
       font-size: 1.5rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       height: 50px;
       margin: 10px 0;
       border-bottom: 3px solid #E9DDD4; }
@@ -753,7 +753,7 @@ header {
     .form__contacto h5 {
       text-align: center;
       font-size: 1.5rem;
-      font-family: 'Noto Sans TC', sans-serif;
+      font-family: "Noto Sans TC", sans-serif;
       height: 50px;
       margin: 10px 0;
       border-bottom: 3px solid #E9DDD4; }

@@ -11,7 +11,7 @@
 	.foo__text {
 		color: $escarcha;
 		font-size: 1rem;
-		font-family: 'Noto Sans TC', sans-serif;
+		font-family: $fuente2;
 		text-align: center;
 		padding-top: 15px;
 	}
@@ -65,7 +65,7 @@
 		p {
 			color: $escarcha;
 			font-size: 1.2rem;
-			font-family: 'Noto Sans TC', sans-serif;
+			font-family: $fuente2;
 			text-align: center;
 			margin: 0;
 		}
@@ -84,7 +84,7 @@
 	// Texto encabezados pie de página
 	.foo__text {
 		color: $escarcha;
-		font-family: 'Noto Sans TC', sans-serif;
+		font-family: $fuente2;
 	}
 	// Listas del pie de página
 	.foo__list {
@@ -132,7 +132,7 @@
 		p {
 			color: $escarcha;
 			font-size: 1.2rem;
-			font-family: 'Noto Sans TC', sans-serif;
+			font-family: $fuente2;
 			text-align: center;
 			margin: 0;
 		}
@@ -151,7 +151,7 @@
     // Texto encabezados pie de página
     .foo__text {
         color: $escarcha;
-        font-family: 'Noto Sans TC', sans-serif;
+        font-family: $fuente2;
     }
     // Listas del pie de página
     .foo__list {
@@ -199,7 +199,7 @@
 		p {
 			color: $escarcha;
 			font-size: 1.2rem;
-			font-family: 'Noto Sans TC', sans-serif;
+			font-family: $fuente2;
 			text-align: center;
 			margin: 0;
 		}

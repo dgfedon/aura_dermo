@@ -1,4 +1,4 @@
-@import "colores-tamaños";
+@import "variables";
 
 // Reset
 * {
@@ -30,14 +30,14 @@ body {
     // Títulos
     h2 {
         font-size: map-get($size, h2);
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: $fuente1;
         color: $escarcha;
         margin-bottom: 5px;
     }
     // Nombre de productos
     h4 {
         font-size: map-get($size, h4);
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: $fuente1;
         color: rosybrown;
         margin-top: 15px;
     }
@@ -59,7 +59,7 @@ body {
         background-color: rgba(233, 221, 212, 0.8);
         h3 {
             font-size: map-get($size, h3);
-            font-family: 'Noto Sans TC', sans-serif;
+            font-family: $fuente2;
             color: rosybrown;
             text-align: center;
             padding-top: 30px;
@@ -78,14 +78,14 @@ body {
     // Títulos
     h2 {
         font-size: map-get($size, h2);
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: $fuente1;
         color: $escarcha;
         margin-bottom: 5px;
     }
     // Nombre de productos
     h4 {
         font-size: map-get($size, h4);
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: $fuente1;
         color: rosybrown;
         margin-top: 15px;
     }
@@ -107,7 +107,7 @@ body {
         background-color: rgba(233, 221, 212, 0.8);
         h3 {
             font-size: map-get($size, h3);
-            font-family: 'Noto Sans TC', sans-serif;
+            font-family: $fuente2;
             color: rosybrown;
             text-align: center;
             padding-top: 30px;
@@ -126,14 +126,14 @@ body {
 	// Títulos
     h2 {
         font-size: map-get($size, h2);
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: $fuente1;
         color: $escarcha;
         margin-bottom: 5px;
     }
     // Nombre de productos
     h4 {
         font-size: map-get($size, h4);
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: $fuente1;
         color: rosybrown;
         margin-top: 10px;
     }
@@ -155,7 +155,7 @@ body {
         background-color: rgba(233, 221, 212, 0.8);
         h3 {
             font-size: map-get($size, h3);
-            font-family: 'Noto Sans TC', sans-serif;
+            font-family: $fuente2;
             color: rosybrown;
             text-align: center;
             padding-top: 50px;
