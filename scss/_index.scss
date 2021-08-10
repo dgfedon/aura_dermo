@@ -1,17 +1,27 @@
 // Vista mobile
 @media only screen and (min-width:0px) and (max-width:767px) {
-    // Texto index
-    .index__texto {
-        width: 350px;
-        margin: 10px;
-        text-align: justify;
-        font-size: 1rem;
-        color: rosybrown;
-    }
-    // Imagen nosotros
-    .nosotros--img {
-        max-width: 50%;
-        height: auto;
+    // Nosotros index 
+    .index--nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font-size: 1.5rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #907369;
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #E9DDD4;
+            width: 260px;
+        }
+        span {
+            width: 295px;
+            margin: 10px;
+            text-align: justify;
+            font-size: 1rem;
+            color: rosybrown;
+        }
     }
     // Sección catálogo
     .flex-sm-catalogo {
@@ -58,18 +68,28 @@
 
 // Vista tablet
 @media only screen and (min-width:768px) and (max-width:1239px) {
-    // Texto index
-    .index__texto {
-        width: 295px;
-        margin-top: 10px;
-        text-align: justify;
-        font-size: 1rem;
-        color: rosybrown;
-    }
-    // Imagen nosotros
-    .nosotros--img {
-        max-width: 60%;
-        height: auto;
+    // Nosotros index 
+    .index--nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font-size: 1.5rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #907369;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 65px 0px 10px 0px;
+            border-bottom: 2px solid #E9DDD4;
+            width: 260px;
+        }
+        span {
+            width: 300px;
+            margin-top: 10px;
+            text-align: justify;
+            font-size: 1rem;
+            color: rosybrown;
+        }
     }
     // Etiqueta nuevo catálogo
     .etiqueta--new {
@@ -110,18 +130,28 @@
 
 // Vista desktop
 @media only screen and (min-width:1240px) {
-    // Texto index
-    .index__texto {
-        padding: 10px 100px 0px 100px;
-        text-align: justify;
-        font-size: 1.2rem;
-        color: rosybrown;
-        width: 720px;
-    }
-    // Imagen nosotros
-    .nosotros--img {
-        max-width: 40%;
-        height: auto;
+    // Nosotros index 
+    .index--nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            font-size: 1.5rem;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #907369;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 65px 0px 10px 0px;
+            border-bottom: 2px solid #E9DDD4;
+            width: 310px;
+        }
+        span {
+            padding: 10px 100px 0px 100px;
+            text-align: justify;
+            font-size: 1.2rem;
+            color: rosybrown;
+            width: 720px;
+        }
     }
     // Etiqueta nuevo
     .etiqueta--new {

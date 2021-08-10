@@ -50,6 +50,18 @@ body {
     .padding {
         padding: 0px 10px;
     }
+    // Cuadro con comentario
+    .comentario--box {
+        height: 100px;
+        background-color: rgba(233, 221, 212, 0.8);
+        h3 {
+            font-size: 1.4rem;
+            font-family: 'Noto Sans TC', sans-serif;
+            color: rosybrown;
+            text-align: center;
+            padding-top: 30px;
+        }
+    }
 }
 
 // Vista tablet
@@ -85,6 +97,18 @@ body {
     .padding {
         padding: 0px 30px;
     }
+    // Cuadro con comentario
+    .comentario--box {
+        height: 100px;
+        background-color: rgba(233, 221, 212, 0.8);
+        h3 {
+            font-size: 1.5rem;
+            font-family: 'Noto Sans TC', sans-serif;
+            color: rosybrown;
+            text-align: center;
+            padding-top: 30px;
+        }
+    }
 }
 
 // Vista desktop
@@ -119,5 +143,17 @@ body {
     // Padding
     .padding {
         padding: 0px 40px;
+    }
+    // Cuadro con comentario
+    .comentario--box {
+        height: 150px;
+        background-color: rgba(233, 221, 212, 0.8);
+        h3 {
+            font-size: 2rem;
+            font-family: 'Noto Sans TC', sans-serif;
+            color: rosybrown;
+            text-align: center;
+            padding-top: 50px;
+        }
     }
 }
