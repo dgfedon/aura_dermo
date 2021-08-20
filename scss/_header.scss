@@ -81,7 +81,7 @@ header {
         a {
             color: $escarcha;
             text-decoration: none;
-            padding-bottom: 5px;
+            padding-bottom: 10px;
             @include nav-decoracion;
             transition: background-size .3s;
             &:hover, &:focus {

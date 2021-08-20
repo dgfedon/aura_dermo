@@ -55,14 +55,14 @@ body {
     }
     // Cuadro con comentario
     .comentario--box {
-        height: 100px;
+        padding: 30px 0px;
         background-color: rgba(233, 221, 212, 0.8);
         h3 {
             font-size: map-get($size, h3);
             font-family: $fuente2;
             color: rosybrown;
             text-align: center;
-            padding-top: 30px;
+            margin: 0px;
         }
     }
 }
@@ -103,14 +103,14 @@ body {
     }
     // Cuadro con comentario
     .comentario--box {
-        height: 100px;
+        padding: 40px 0px;
         background-color: rgba(233, 221, 212, 0.8);
         h3 {
             font-size: map-get($size, h3);
             font-family: $fuente2;
             color: rosybrown;
             text-align: center;
-            padding-top: 30px;
+            margin: 0px;
         }
     }
 }
@@ -151,14 +151,14 @@ body {
     }
     // Cuadro con comentario
     .comentario--box {
-        height: 150px;
+        padding: 45px 0px;
         background-color: rgba(233, 221, 212, 0.8);
         h3 {
             font-size: map-get($size, h3);
             font-family: $fuente2;
             color: rosybrown;
             text-align: center;
-            padding-top: 50px;
+            margin: 0px;
         }
     }
 }

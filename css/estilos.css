@@ -33,14 +33,14 @@ body {
   .padding {
     padding: 0px 10px; }
   .comentario--box {
-    height: 100px;
+    padding: 30px 0px;
     background-color: rgba(233, 221, 212, 0.8); }
     .comentario--box h3 {
       font-size: 1.4rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-align: center;
-      padding-top: 30px; } }
+      margin: 0px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1239px) {
   h2 {
@@ -62,14 +62,14 @@ body {
   .padding {
     padding: 0px 60px; }
   .comentario--box {
-    height: 100px;
+    padding: 40px 0px;
     background-color: rgba(233, 221, 212, 0.8); }
     .comentario--box h3 {
       font-size: 1.4rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-align: center;
-      padding-top: 30px; } }
+      margin: 0px; } }
 
 @media only screen and (min-width: 1240px) {
   h2 {
@@ -91,14 +91,14 @@ body {
   .padding {
     padding: 0px 70px; }
   .comentario--box {
-    height: 150px;
+    padding: 45px 0px;
     background-color: rgba(233, 221, 212, 0.8); }
     .comentario--box h3 {
       font-size: 2rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-align: center;
-      padding-top: 50px; } }
+      margin: 0px; } }
 
 header {
   background: #f9f1f0;
@@ -165,7 +165,7 @@ header {
     .nav__link a {
       color: #907369;
       text-decoration: none;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
       background-image: linear-gradient(currentColor, currentColor);
       background-position: 0% 100%;
       background-repeat: no-repeat;

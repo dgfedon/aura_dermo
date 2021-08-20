@@ -1,7 +1,7 @@
 {
   "name": "proyecto_final_4",
   "version": "1.0.0",
-  "description": "Productos cosméticos de diferentes marcas con un mismo propósito: belleza sin estándares (uso en domicilio y profesional).",
+  "description": "Productos cosméticos de diferentes marcas con un mismo propósito: belleza sin estándares (uso en domicilio y profesional)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
