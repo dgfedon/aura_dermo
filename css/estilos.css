@@ -33,7 +33,7 @@ body {
   .padding {
     padding: 0px 10px; }
   .comentario--box {
-    padding: 30px 0px;
+    padding: 50px 0px;
     background-color: rgba(233, 221, 212, 0.8); }
     .comentario--box h3 {
       font-size: 1.4rem;
@@ -92,12 +92,12 @@ body {
     padding: 0px 70px; }
   .comentario--box {
     padding: 45px 0px;
-    background-color: rgba(233, 221, 212, 0.8); }
+    background-color: rgba(233, 221, 212, 0.8);
+    text-align: center; }
     .comentario--box h3 {
       font-size: 2rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
-      text-align: center;
       margin: 0px; } }
 
 header {
@@ -129,7 +129,15 @@ header {
       .nav__link a:hover {
         padding: 5px 10px;
         color: #E9DDD4;
-        background-color: #B49C94; } }
+        background-color: #B49C94; }
+  .header__cart--icon {
+    padding: 18px; }
+    .header__cart--icon button {
+      border: none;
+      background: none; }
+      .header__cart--icon button i {
+        font-size: 2rem;
+        color: #907369; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1239px) {
   .header__nav--flex {
@@ -150,7 +158,15 @@ header {
       background-size: 0% 2px;
       transition: background-size .1s; }
       .nav__link a:hover, .nav__link a:focus {
-        background-size: 100% 2px; } }
+        background-size: 100% 2px; }
+  .header__cart--icon {
+    padding: 17px 15px 15px 20px; }
+    .header__cart--icon button {
+      border: none;
+      background: none; }
+      .header__cart--icon button i {
+        font-size: 2rem;
+        color: #907369; } }
 
 @media only screen and (min-width: 1240px) {
   .header__nav--flex {
@@ -172,7 +188,15 @@ header {
       background-size: 0% 2px;
       transition: background-size .3s; }
       .nav__link a:hover, .nav__link a:focus {
-        background-size: 100% 2px; } }
+        background-size: 100% 2px; }
+  .header__cart--icon {
+    padding: 15px 15px 15px 300px; }
+    .header__cart--icon button {
+      border: none;
+      background: none; }
+      .header__cart--icon button i {
+        font-size: 2rem;
+        color: #907369; } }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .foo {
@@ -337,15 +361,14 @@ header {
       color: rosybrown; }
   .asesoramiento--box {
     background-color: rgba(233, 221, 212, 0.5);
-    height: 110px;
-    padding: 20px 0px;
+    padding: 25px 5px;
     margin: 20px 0px;
     text-align: center; }
     .asesoramiento--box p {
       font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
-      margin-top: 10px;
+      margin-top: 1rem;
       padding: 0px 5px; }
   /* Etiqueta nuevo catálogo */
   .etiqueta--new {
@@ -399,15 +422,14 @@ header {
       color: rosybrown; }
   .asesoramiento--box {
     background-color: rgba(233, 221, 212, 0.5);
-    height: 110px;
-    padding: 20px 0px;
+    padding: 30px 0px;
     margin: 20px 0px;
     text-align: center; }
     .asesoramiento--box p {
       font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
-      margin-top: 10px;
+      margin-top: 1rem;
       padding: 0px 5px; }
   .etiqueta--new {
     display: inline-block;
@@ -464,15 +486,14 @@ header {
       color: rosybrown; }
   .asesoramiento--box {
     background-color: rgba(233, 221, 212, 0.5);
-    height: 110px;
-    padding: 20px 0px;
+    padding: 30px 0px;
     margin: 20px 0px;
     text-align: center; }
     .asesoramiento--box p {
       font-size: 1.2rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
-      margin-top: 10px;
+      margin-top: 1rem;
       padding: 0px 5px; }
   .etiqueta--new {
     display: inline-block;
