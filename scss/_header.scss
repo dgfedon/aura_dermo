@@ -15,6 +15,7 @@ header {
 .imgLogo {
     width: 80px;
     height: 80px;
+    cursor: pointer;
 }
 
 // Vista mobile
@@ -70,7 +71,7 @@ header {
             color: $escarcha;
             text-decoration: none;
             @include nav-decoracion;
-            transition: background-size .1s;
+            transition: background-size 0s;
             &:hover, &:focus {
                 background-size: 100% 2px;
             }

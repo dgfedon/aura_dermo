@@ -151,6 +151,33 @@
 
 // Vista desktop
 @media only screen and (min-width:992px) {
+    // Parralax
+    .index--parralax {
+        background-image: url("../assets/img/parralax.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        margin-bottom: 40px;
+        opacity: 0.8;
+        box-shadow: 0 -20px 20px 0 #fffffa inset;
+        h1 {
+            padding: 150px 60px 0px 60px;
+            font-size: 5rem;
+            font-family: $fuente1;
+            color: $escarcha;
+            text-align: center; 
+            text-shadow: 0 -5px 20px;
+        }
+        p {
+            font-size: $textoMayor;
+            font-family: $fuente1;
+            color: $escarcha;
+            text-shadow: 0 -5px 20px whitesmoke;
+            text-align: center;
+        }
+    }
     // Nosotros index 
     .index--nosotros {
         height: 100%;

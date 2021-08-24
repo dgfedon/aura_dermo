@@ -111,7 +111,8 @@ header {
 
 .imgLogo {
   width: 80px;
-  height: 80px; }
+  height: 80px;
+  cursor: pointer; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .header__nav--flex {
@@ -156,7 +157,7 @@ header {
       background-position: 0% 100%;
       background-repeat: no-repeat;
       background-size: 0% 2px;
-      transition: background-size .1s; }
+      transition: background-size 0s; }
       .nav__link a:hover, .nav__link a:focus {
         background-size: 100% 2px; }
   .header__cart--icon {
@@ -465,6 +466,29 @@ header {
         background-size: 100% 2px; } }
 
 @media only screen and (min-width: 992px) {
+  .index--parralax {
+    background-image: url("../assets/img/parralax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 40px;
+    opacity: 0.8;
+    box-shadow: 0 -20px 20px 0 #fffffa inset; }
+    .index--parralax h1 {
+      padding: 150px 60px 0px 60px;
+      font-size: 5rem;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #907369;
+      text-align: center;
+      text-shadow: 0 -5px 20px; }
+    .index--parralax p {
+      font-size: 1.5rem;
+      font-family: "Source Sans Pro", sans-serif;
+      color: #907369;
+      text-shadow: 0 -5px 20px whitesmoke;
+      text-align: center; }
   .index--nosotros {
     height: 100%;
     display: flex;
@@ -533,7 +557,7 @@ header {
     padding-bottom: 10px;
     height: auto;
     margin-bottom: 15px;
-    display: flex; }
+    transition: all 500ms ease-out; }
     .producto__item:hover {
       box-shadow: 0px 2px 15px 10px #E9DDD4; }
   .producto__item--flex {
@@ -545,16 +569,6 @@ header {
     font-family: "Noto Sans TC", sans-serif;
     color: #B49C94;
     margin-bottom: 15px; }
-  .producto__item--list {
-    font-size: 1rem;
-    font-family: "Noto Sans TC", sans-serif;
-    color: rosybrown;
-    padding: 0px 10px; }
-    .producto__item--list ul {
-      padding: 0;
-      height: 55px; }
-    .producto__item--list li {
-      list-style-type: none; }
   .producto__item--btn {
     background: #E9DDD4;
     font-size: 1rem;
@@ -568,6 +582,40 @@ header {
     .producto__item--btn:hover {
       background: #B49C94;
       color: beige; }
+  .producto__item:hover > .producto__desvanecer--body {
+    opacity: 1; }
+  .producto__desvanecer--body {
+    opacity: 0;
+    position: absolute; }
+  .producto__desvanecer--info {
+    background-image: linear-gradient(135deg, #F9F1F0 0%, #E9DDD4 100%);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px; }
+    .producto__desvanecer--info h4 {
+      width: 250px;
+      border-bottom: 2px solid #DAC4C0;
+      padding-bottom: 5px; }
+    .producto__desvanecer--info ul {
+      padding: 0; }
+      .producto__desvanecer--info ul li {
+        width: 250px;
+        list-style: none;
+        color: rosybrown;
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1rem; }
+  .producto--etiqueta {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: #DAC4C0;
+    color: #F9F1F0;
+    border-radius: 0px 10px 0px 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px; }
   .img-radius {
     border-radius: 10px 10px 0px 0px; }
   .producto__item--sale {
@@ -581,7 +629,8 @@ header {
     border-radius: 10px;
     padding: 0 20px 10px 20px;
     height: auto;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    transition: all 500ms ease-out; }
     .producto__item:hover {
       box-shadow: 0px 2px 15px 10px #E9DDD4; }
   .producto__item--flex {
@@ -593,15 +642,6 @@ header {
     font-family: "Noto Sans TC", sans-serif;
     color: #B49C94;
     margin-bottom: 15px; }
-  .producto__item--list {
-    font-size: 1rem;
-    font-family: "Noto Sans TC", sans-serif;
-    color: rosybrown; }
-    .producto__item--list ul {
-      padding: 0;
-      height: 70px; }
-    .producto__item--list li {
-      list-style-type: none; }
   .producto__item--btn {
     background: #E9DDD4;
     font-size: 1rem;
@@ -615,6 +655,40 @@ header {
     .producto__item--btn:hover {
       background: #B49C94;
       color: beige; }
+  .producto__item:hover > .producto__desvanecer--body {
+    opacity: 1; }
+  .producto__desvanecer--body {
+    opacity: 0;
+    position: absolute; }
+  .producto__desvanecer--info {
+    background-image: linear-gradient(135deg, #F9F1F0 0%, #E9DDD4 100%);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px; }
+    .producto__desvanecer--info h4 {
+      width: 250px;
+      border-bottom: 2px solid #DAC4C0;
+      padding-bottom: 5px; }
+    .producto__desvanecer--info ul {
+      padding: 0; }
+      .producto__desvanecer--info ul li {
+        width: 250px;
+        list-style: none;
+        color: rosybrown;
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1rem; }
+  .producto--etiqueta {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: #DAC4C0;
+    color: #F9F1F0;
+    border-radius: 0px 10px 0px 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px; }
   .img-radius {
     border-radius: 0px 0px 10px 10px; }
   .producto__item--sale {
@@ -627,10 +701,11 @@ header {
     border: 1px solid #E9DDD4;
     border-radius: 10px;
     padding: 0 30px 10px 30px;
-    height: auto;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    transition: all 500ms ease-out; }
     .producto__item:hover {
-      box-shadow: 0px 2px 15px 10px #E9DDD4; }
+      box-shadow: 0px 2px 15px 10px #E9DDD4;
+      cursor: pointer; }
   .producto__item--price {
     font-size: 1.2rem;
     font-family: "Noto Sans TC", sans-serif;
@@ -640,15 +715,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .producto__item--list {
-    font-size: 0.95rem;
-    font-family: "Noto Sans TC", sans-serif;
-    color: rosybrown; }
-    .producto__item--list ul {
-      padding: 0;
-      height: 60px; }
-    .producto__item--list li {
-      list-style-type: none; }
   .producto__item--btn {
     background: #E9DDD4;
     font-size: 1rem;
@@ -661,7 +727,43 @@ header {
     border-radius: 5px; }
     .producto__item--btn:hover {
       background: #B49C94;
-      color: beige; }
+      color: #E9DDD4; }
+  .producto__item:hover > .producto__desvanecer--body {
+    opacity: 1; }
+  .producto__desvanecer--body {
+    opacity: 0;
+    position: absolute; }
+  .producto__desvanecer--info {
+    background-image: linear-gradient(135deg, #F9F1F0 0%, #E9DDD4 100%);
+    background-size: cover;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center; }
+    .producto__desvanecer--info h4 {
+      width: 300px;
+      border-bottom: 2px solid #DAC4C0;
+      padding-bottom: 5px; }
+    .producto__desvanecer--info ul {
+      padding: 0; }
+      .producto__desvanecer--info ul li {
+        width: 300px;
+        list-style: none;
+        color: rosybrown;
+        font-family: "Noto Sans TC", sans-serif;
+        font-size: 1rem;
+        padding: 0px 10px; }
+  .producto--etiqueta {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1rem;
+    line-height: 1;
+    background-color: #DAC4C0;
+    color: #F9F1F0;
+    border-radius: 0px 10px 0px 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px; }
   .img-radius {
     border-radius: 0px 0px 10px 10px; }
   .producto__item--sale {
