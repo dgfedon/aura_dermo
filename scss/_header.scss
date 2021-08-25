@@ -32,12 +32,12 @@ header {
         font-family: $fuente2;
         padding: 5px 10px;
         a {
-            text-decoration: none;
             color: $escarcha;
-            &:hover {
-                padding: 5px 10px;
-                color: $palido;
-                background-color: $beigeOscuro;
+            text-decoration: none;
+            @include nav-decoracion;
+            transition: background-size 0s;
+            &:hover, &:focus {
+                background-size: 100% 2px;
             }
         }
     }
