@@ -340,6 +340,22 @@ header {
       margin: 0; } }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .index--parallax {
+    background-image: url("../assets/img/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+    box-shadow: 0 -20px 20px 0 #fffffa inset; }
+    .index--parallax h1 {
+      padding: 180px 60px 0px 60px;
+      font-size: 2.8rem;
+      font-family: "Noto Sans TC", sans-serif;
+      color: #776464;
+      text-align: center; }
   .index--nosotros {
     display: flex;
     flex-direction: column;
@@ -401,6 +417,22 @@ header {
         background-size: 100% 2px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .index--parallax {
+    background-image: url("../assets/img/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    margin-bottom: 40px;
+    opacity: 0.7;
+    box-shadow: 0 -20px 20px 0 #fffffa inset; }
+    .index--parallax h1 {
+      padding: 130px 60px 0px 60px;
+      font-size: 4.5rem;
+      font-family: "Noto Sans TC", sans-serif;
+      color: #776464;
+      text-align: center; }
   .index--nosotros {
     height: 100%;
     display: flex;
@@ -466,28 +498,21 @@ header {
         background-size: 100% 2px; } }
 
 @media only screen and (min-width: 992px) {
-  .index--parralax {
-    background-image: url("../assets/img/parralax.jpg");
+  .index--parallax {
+    background-image: url("../assets/img/parallax.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     margin-bottom: 40px;
-    opacity: 0.8;
+    opacity: 0.7;
     box-shadow: 0 -20px 20px 0 #fffffa inset; }
-    .index--parralax h1 {
-      padding: 150px 60px 0px 60px;
+    .index--parallax h1 {
+      padding: 130px 60px 0px 60px;
       font-size: 5rem;
-      font-family: "Source Sans Pro", sans-serif;
-      color: #907369;
-      text-align: center;
-      text-shadow: 0 -5px 20px; }
-    .index--parralax p {
-      font-size: 1.5rem;
-      font-family: "Source Sans Pro", sans-serif;
-      color: #907369;
-      text-shadow: 0 -5px 20px whitesmoke;
+      font-family: "Noto Sans TC", sans-serif;
+      color: #776464;
       text-align: center; }
   .index--nosotros {
     height: 100%;
