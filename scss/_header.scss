@@ -41,18 +41,6 @@ header {
             }
         }
     }
-    // Icono carrito de compras
-    .header__cart--icon {
-        padding: 18px;
-        button {
-            border: none;
-            background: none;
-            i {
-                font-size: 2rem;
-                color: $escarcha;
-            }
-        }
-    }
 }
 // Vista tablet
 @media only screen and (min-width:768px) and (max-width:1239px) {
@@ -74,18 +62,6 @@ header {
             transition: background-size 0s;
             &:hover, &:focus {
                 background-size: 100% 2px;
-            }
-        }
-    }
-    // Icono carrito de compras
-    .header__cart--icon {
-        padding: 17px 15px 15px 20px;
-        button {
-            border: none;
-            background: none;
-            i {
-                font-size: 2rem;
-                color: $escarcha;
             }
         }
     }
@@ -111,18 +87,6 @@ header {
             transition: background-size .3s;
             &:hover, &:focus {
                 background-size: 100% 2px;
-            }
-        }
-    }
-    // Icono carrito de compras
-    .header__cart--icon {
-        padding: 15px 15px 15px 300px;
-        button {
-            border: none;
-            background: none;
-            i {
-                font-size: 2rem;
-                color: $escarcha;
             }
         }
     }
