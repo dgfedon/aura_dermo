@@ -116,10 +116,13 @@
     // Productos con flex
     .producto__item--flex {
         @include flex-column-align-center;
+        h4 {
+            height: 60px;
+        }
     }
     // Precio producto
     .producto__item--price {
-        font-size: $textoMenor;
+        font-size: $textoMedio;
 		font-family: $fuente2;
         color: $beigeOscuro;
         margin-bottom: 15px;
@@ -140,11 +143,11 @@
             color: beige;
         }
     }
-    // Cuerpo información producto
+    // Cuerpo descripción producto
     .producto__item:hover > .producto__desvanecer--body {
         opacity: 1;
     }
-    // Información de producto
+    // Descripción de producto
     .producto__desvanecer--body {
         opacity: 0;
         position: absolute;
@@ -155,20 +158,20 @@
         border-radius: 10px;
         min-height: 380px;
         h4 {
-            width: 240px;
+            width: 260px;
             border-bottom: 2px solid $rosaPolvo;
             padding-bottom: 5px;
-            text-align: center;
         }
         ul {
             padding: 0;
             li {
-                width: 240px;
+                width: 260px;
                 list-style: none;
                 color: rosybrown;
                 font-family: $fuente2;
-                font-size: $textoMenor;
+                font-size: $textoMedio;
                 text-align: justify;
+                padding-top: 10px;
             }
         }
     }
@@ -176,7 +179,7 @@
     .producto--etiqueta {
         display: inline-block;
         padding: 5px 10px;
-        font-size: $textoMenor;
+        font-size: $textoMedio;
         line-height: 1;
         background-color: $rosaPolvo;
         color: $crema;
@@ -194,7 +197,7 @@
 	// Precio sale
     .producto__item--sale {
         color: gainsboro;
-		font-size: $textoMenor;
+		font-size: $textoMedio;
         text-decoration-line: line-through;
     }
 }

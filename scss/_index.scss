@@ -35,7 +35,7 @@
             width: 260px;
         }
         span {
-            margin: 15px;
+            margin:  10px 15px 15px 15px;
             text-align: justify;
             font-size: $textoMenor;
             font-family: $fuente2;
@@ -122,14 +122,13 @@
             color: $escarcha;
             text-transform: uppercase;
             text-align: center;
-            margin-top: 20px;
             padding-bottom: 10px;
-            padding-right: 30px;
+            padding-right: 5px;
         }
         span {
-            padding-right: 30px;
+            padding-right: 5px;
             text-align: justify;
-            font-size: $textoMenor;
+            font-size: 1.1rem;
             font-family: $fuente2;
             color: rosybrown;
         }
@@ -154,7 +153,7 @@
     .etiqueta--new {
         display: inline-block;
         padding: 10px 20px;
-        font-size: $textoMedio;
+        font-size: $textoMayor;
         line-height: 1;
         border-radius: 5px;
         background-color: $beigeOscuro;
@@ -176,7 +175,7 @@
         margin: 5px 25px;
         text-align: center;
         a {
-            font-size: $textoMedio;
+            font-size: $textoMayor;
             font-family: $fuente2;
             color: rosybrown;
             text-decoration: none;

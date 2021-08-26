@@ -48,9 +48,10 @@ body {
     color: #907369;
     margin-bottom: 5px; }
   h4 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-family: "Source Sans Pro", sans-serif;
     color: rosybrown;
+    text-align: center;
     margin-top: 15px; }
   .linea--division {
     width: 80%;
@@ -59,7 +60,7 @@ body {
     margin: auto;
     margin-bottom: 20px; }
   .padding {
-    padding: 0px 60px; }
+    padding: 0px 40px; }
   .comentario--box {
     padding: 40px 0px;
     background-color: rgba(233, 221, 212, 0.8); }
@@ -120,7 +121,7 @@ header {
     padding: 0 20px;
     box-shadow: 1px 0px 20px 5px #E9DDD4; }
   .nav__link {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Noto Sans TC", sans-serif;
     padding: 5px 10px; }
     .nav__link a {
@@ -141,7 +142,7 @@ header {
     padding: 0 40px;
     box-shadow: 1px 0px 20px 5px #E9DDD4; }
   .nav__link {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Noto Sans TC", sans-serif;
     padding: 5px 10px; }
     .nav__link a {
@@ -237,13 +238,14 @@ header {
     margin-top: 10px; }
   .foo__text {
     color: #907369;
-    font-family: "Noto Sans TC", sans-serif; }
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 1.2rem; }
   .foo__list {
     padding: 0; }
     .foo__list li {
       list-style-type: none;
       color: rosybrown;
-      font-size: 1rem; }
+      font-size: 1.2rem; }
       .foo__list li a {
         text-decoration: none;
         color: rosybrown; }
@@ -268,7 +270,7 @@ header {
     padding: 15px 40px 15px 40px; }
     .foo__copy p {
       color: #907369;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-family: "Noto Sans TC", sans-serif;
       text-align: center;
       margin: 0; } }
@@ -281,13 +283,14 @@ header {
     margin-top: 15px; }
   .foo__text {
     color: #907369;
-    font-family: "Noto Sans TC", sans-serif; }
+    font-family: "Noto Sans TC", sans-serif;
+    font-size: 1.2rem; }
   .foo__list {
     padding: 0; }
     .foo__list li {
       list-style-type: none;
       color: rosybrown;
-      font-size: 1rem; }
+      font-size: 1.2rem; }
       .foo__list li a {
         text-decoration: none;
         color: rosybrown; }
@@ -312,7 +315,7 @@ header {
     padding: 15px 40px; }
     .foo__copy p {
       color: #907369;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-family: "Noto Sans TC", sans-serif;
       text-align: center;
       margin: 0; } }
@@ -348,7 +351,7 @@ header {
       border-bottom: 2px solid #E9DDD4;
       width: 260px; }
     .index--nosotros span {
-      margin: 15px;
+      margin: 10px 15px 15px 15px;
       text-align: justify;
       font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
@@ -418,13 +421,12 @@ header {
       color: #907369;
       text-transform: uppercase;
       text-align: center;
-      margin-top: 20px;
       padding-bottom: 10px;
-      padding-right: 30px; }
+      padding-right: 5px; }
     .index--nosotros span {
-      padding-right: 30px;
+      padding-right: 5px;
       text-align: justify;
-      font-size: 1rem;
+      font-size: 1.1rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown; }
   .index--carrusel img {
@@ -440,7 +442,7 @@ header {
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1;
     border-radius: 5px;
     background-color: #B49C94;
@@ -458,7 +460,7 @@ header {
     margin: 5px 25px;
     text-align: center; }
     .catalogo--box a {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown;
       text-decoration: none;
@@ -639,8 +641,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center; }
+    .producto__item--flex h4 {
+      height: 60px; }
   .producto__item--price {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Noto Sans TC", sans-serif;
     color: #B49C94;
     margin-bottom: 15px; }
@@ -668,23 +672,23 @@ header {
     border-radius: 10px;
     min-height: 380px; }
     .producto__desvanecer--info h4 {
-      width: 240px;
+      width: 260px;
       border-bottom: 2px solid #DAC4C0;
-      padding-bottom: 5px;
-      text-align: center; }
+      padding-bottom: 5px; }
     .producto__desvanecer--info ul {
       padding: 0; }
       .producto__desvanecer--info ul li {
-        width: 240px;
+        width: 260px;
         list-style: none;
         color: rosybrown;
         font-family: "Noto Sans TC", sans-serif;
-        font-size: 1rem;
-        text-align: justify; }
+        font-size: 1.2rem;
+        text-align: justify;
+        padding-top: 10px; }
   .producto--etiqueta {
     display: inline-block;
     padding: 5px 10px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1;
     background-color: #DAC4C0;
     color: #F9F1F0;
@@ -697,7 +701,7 @@ header {
     border-radius: 0px 0px 10px 10px; }
   .producto__item--sale {
     color: gainsboro;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-decoration-line: line-through; } }
 
 @media only screen and (min-width: 1240px) {

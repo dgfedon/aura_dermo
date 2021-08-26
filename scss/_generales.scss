@@ -72,7 +72,7 @@ body {
     // Tamaños de fuentes
     $size: (
         h2: 1.8rem,
-        h4: 1.1rem,
+        h4: 1.5rem,
         h3: 1.4rem,
     );
     // Títulos
@@ -87,6 +87,7 @@ body {
         font-size: map-get($size, h4);
         font-family: $fuente1;
         color: rosybrown;
+        text-align: center;
         margin-top: 15px;
     }
     // Linea divisoria
@@ -99,7 +100,7 @@ body {
     }
     // Padding
     .padding {
-        padding: 0px 60px;
+        padding: 0px 40px;
     }
     // Cuadro con comentario
     .comentario--box {
