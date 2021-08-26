@@ -332,7 +332,7 @@ header {
       padding: 150px 60px 0px 60px;
       font-size: 2.6rem;
       font-family: "Noto Sans TC", sans-serif;
-      color: #776464;
+      color: #907369;
       text-align: center; }
   .index--nosotros {
     display: flex;
@@ -358,8 +358,7 @@ header {
     min-height: 190px; }
   .index--carrusel h5 {
     color: #907369;
-    font-family: "Noto Sans TC", sans-serif;
-    font-weight: lighter; }
+    font-family: "Noto Sans TC", sans-serif; }
   .index--carrusel p {
     color: #907369;
     font-family: "Noto Sans TC", sans-serif; }
@@ -374,7 +373,7 @@ header {
   .display--none {
     display: none; }
   .catalogo--box {
-    background-color: rgba(238, 214, 211, 0.5);
+    background-color: rgba(233, 221, 212, 0.8);
     margin: 0px 30px 10px 30px;
     padding: 10px 5px;
     text-align: center; }
@@ -406,7 +405,7 @@ header {
       padding: 160px 60px 0px 60px;
       font-size: 4.5rem;
       font-family: "Noto Sans TC", sans-serif;
-      color: #776464;
+      color: #907369;
       text-align: center; }
   .index--nosotros {
     height: 100%;
@@ -431,12 +430,11 @@ header {
   .index--carrusel img {
     opacity: 0.8; }
   .index--carrusel h5 {
-    color: #A47786;
+    color: #907369;
     font-size: 2rem;
-    font-family: "Noto Sans TC", sans-serif;
-    font-weight: lighter; }
+    font-family: "Noto Sans TC", sans-serif; }
   .index--carrusel p {
-    color: #A47786;
+    color: #907369;
     font-size: 1.5rem;
     font-family: "Noto Sans TC", sans-serif; }
   .etiqueta--new {
@@ -455,7 +453,7 @@ header {
     flex-direction: column;
     justify-content: center; }
   .catalogo--box {
-    background-color: rgba(238, 214, 211, 0.5);
+    background-color: rgba(233, 221, 212, 0.8);
     padding: 10px;
     margin: 5px 25px;
     text-align: center; }
@@ -481,13 +479,13 @@ header {
     background-size: cover;
     height: 650px;
     margin-bottom: 40px;
-    opacity: 0.8;
+    opacity: 0.7;
     box-shadow: 0 -20px 20px 0 #fffffa inset; }
     .index--parallax h1 {
       padding: 200px 60px 0px 60px;
       font-size: 5rem;
       font-family: "Noto Sans TC", sans-serif;
-      color: #776464;
+      color: #907369;
       text-align: center;
       text-shadow: 1px 5px 20px #EED6D3; }
   .index--nosotros {
@@ -558,8 +556,7 @@ header {
     border: 1px solid #E9DDD4;
     border-radius: 10px;
     padding-bottom: 10px;
-    height: auto;
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
     transition: all 500ms ease-out; }
     .producto__item:hover {
       box-shadow: 0px 2px 15px 10px #E9DDD4; }
@@ -593,7 +590,8 @@ header {
   .producto__desvanecer--info {
     background-image: linear-gradient(135deg, #F9F1F0 0%, #E9DDD4 100%);
     padding: 40px 20px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    min-height: 420px; }
     .producto__desvanecer--info h4 {
       width: 250px;
       border-bottom: 2px solid #DAC4C0;
@@ -666,17 +664,18 @@ header {
     position: absolute; }
   .producto__desvanecer--info {
     background-image: linear-gradient(135deg, #F9F1F0 0%, #E9DDD4 100%);
-    padding: 40px 20px 60px 20px;
-    border-radius: 10px; }
+    padding: 40px 20px;
+    border-radius: 10px;
+    min-height: 380px; }
     .producto__desvanecer--info h4 {
-      width: 250px;
+      width: 240px;
       border-bottom: 2px solid #DAC4C0;
       padding-bottom: 5px;
       text-align: center; }
     .producto__desvanecer--info ul {
       padding: 0; }
       .producto__desvanecer--info ul li {
-        width: 250px;
+        width: 240px;
         list-style: none;
         color: rosybrown;
         font-family: "Noto Sans TC", sans-serif;
@@ -740,8 +739,9 @@ header {
     position: absolute; }
   .producto__desvanecer--info {
     background-image: linear-gradient(135deg, #F9F1F0 0%, #E9DDD4 100%);
-    padding: 40px 20px 80px 20px;
-    border-radius: 10px; }
+    padding: 40px 20px;
+    border-radius: 10px;
+    min-height: 430px; }
     .producto__desvanecer--info h4 {
       width: 300px;
       border-bottom: 2px solid #DAC4C0;

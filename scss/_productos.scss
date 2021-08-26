@@ -7,8 +7,7 @@
         border: 1px solid $palido  ;
         border-radius: 10px;
         padding-bottom: 10px;
-        height: auto;
-        margin-bottom: 20px;
+        margin: 0 20px 20px 20px;
         transition: all 500ms ease-out;
         &:hover {
             box-shadow: 0px 2px 15px 10px $palido;
@@ -54,6 +53,7 @@
         background-image: linear-gradient(135deg, $crema 0%, $palido 100%);
         padding: 40px 20px;
         border-radius: 10px;
+        min-height: 420px;
         h4 {
             width: 250px;
             border-bottom: 2px solid $rosaPolvo;
@@ -151,10 +151,11 @@
     }
     .producto__desvanecer--info {
         background-image: linear-gradient(135deg, $crema 0%, $palido 100%);
-        padding: 40px 20px 60px 20px;
+        padding: 40px 20px;
         border-radius: 10px;
+        min-height: 380px;
         h4 {
-            width: 250px;
+            width: 240px;
             border-bottom: 2px solid $rosaPolvo;
             padding-bottom: 5px;
             text-align: center;
@@ -162,7 +163,7 @@
         ul {
             padding: 0;
             li {
-                width: 250px;
+                width: 240px;
                 list-style: none;
                 color: rosybrown;
                 font-family: $fuente2;
@@ -250,8 +251,9 @@
     }
     .producto__desvanecer--info {
         background-image: linear-gradient(135deg, $crema 0%, $palido 100%);
-        padding: 40px 20px 80px 20px;
+        padding: 40px 20px;
         border-radius: 10px;
+        min-height: 430px;
         h4 {
             width: 300px;
             border-bottom: 2px solid $rosaPolvo;
