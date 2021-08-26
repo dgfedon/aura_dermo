@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -163,7 +162,7 @@ header {
     padding: 0 70px;
     box-shadow: 1px 0px 20px 5px #E9DDD4; }
   .nav__link {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Noto Sans TC", sans-serif;
     padding: 0px 15px; }
     .nav__link a {
@@ -354,18 +353,16 @@ header {
       font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown; }
-  .asesoramiento--box {
-    background-color: rgba(233, 221, 212, 0.5);
-    padding: 25px 5px;
-    margin: 20px 0px;
-    text-align: center; }
-    .asesoramiento--box p {
-      font-size: 1rem;
-      font-family: "Noto Sans TC", sans-serif;
-      color: rosybrown;
-      margin-top: 1rem;
-      padding: 0px 5px; }
-  /* Etiqueta nuevo catálogo */
+  .index--carrusel img {
+    opacity: 0.8;
+    min-height: 190px; }
+  .index--carrusel h5 {
+    color: #907369;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: lighter; }
+  .index--carrusel p {
+    color: #907369;
+    font-family: "Noto Sans TC", sans-serif; }
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
@@ -374,10 +371,10 @@ header {
     border-radius: 5px;
     background-color: #B49C94;
     color: #E9DDD4; }
-  .imgCatalogo {
+  .display--none {
     display: none; }
   .catalogo--box {
-    background-color: rgba(233, 221, 212, 0.8);
+    background-color: rgba(238, 214, 211, 0.5);
     margin: 0px 30px 10px 30px;
     padding: 10px 5px;
     text-align: center; }
@@ -431,17 +428,17 @@ header {
       font-size: 1rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown; }
-  .asesoramiento--box {
-    background-color: rgba(233, 221, 212, 0.5);
-    padding: 30px 0px;
-    margin: 20px 0px;
-    text-align: center; }
-    .asesoramiento--box p {
-      font-size: 1rem;
-      font-family: "Noto Sans TC", sans-serif;
-      color: rosybrown;
-      margin-top: 1rem;
-      padding: 0px 5px; }
+  .index--carrusel img {
+    opacity: 0.8; }
+  .index--carrusel h5 {
+    color: #A47786;
+    font-size: 2rem;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: lighter; }
+  .index--carrusel p {
+    color: #A47786;
+    font-size: 1.5rem;
+    font-family: "Noto Sans TC", sans-serif; }
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
@@ -450,15 +447,15 @@ header {
     border-radius: 5px;
     background-color: #B49C94;
     color: #E9DDD4; }
-  .imgCatalogo {
+  .display--none {
     display: none; }
   .catalogo--posicion {
-    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center; }
   .catalogo--box {
-    background-color: rgba(233, 221, 212, 0.8);
+    background-color: rgba(238, 214, 211, 0.5);
     padding: 10px;
     margin: 5px 25px;
     text-align: center; }
@@ -500,8 +497,9 @@ header {
     justify-content: center; }
     .index--nosotros h1 {
       font-size: 1.5rem;
-      font-family: "Source Sans Pro", sans-serif;
-      color: #907369;
+      font-family: "Noto Sans TC", sans-serif;
+      font-weight: lighter;
+      color: #B49C94;
       text-align: center;
       text-transform: uppercase;
       padding-bottom: 10px;
@@ -512,17 +510,6 @@ header {
       font-size: 1.2rem;
       font-family: "Noto Sans TC", sans-serif;
       color: rosybrown; }
-  .asesoramiento--box {
-    background-color: rgba(233, 221, 212, 0.5);
-    padding: 30px 0px;
-    margin: 20px 0px;
-    text-align: center; }
-    .asesoramiento--box p {
-      font-size: 1.2rem;
-      font-family: "Noto Sans TC", sans-serif;
-      color: rosybrown;
-      margin-top: 1rem;
-      padding: 0px 5px; }
   .etiqueta--new {
     display: inline-block;
     padding: 10px 20px;
@@ -531,13 +518,25 @@ header {
     border-radius: 5px;
     background-color: #B49C94;
     color: #E9DDD4; }
+  .index--carrusel img {
+    opacity: 0.8;
+    max-height: 250px; }
+  .index--carrusel h5 {
+    color: #B49C94;
+    font-size: 2rem;
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: lighter; }
+  .index--carrusel p {
+    color: #B49C94;
+    font-size: 1.8rem;
+    font-family: "Noto Sans TC", sans-serif; }
   .catalogo--posicion {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center; }
   .catalogo--box {
-    background-color: rgba(233, 221, 212, 0.5);
+    background-color: rgba(238, 214, 211, 0.5);
     margin: 5px 25px;
     padding: 15px;
     text-align: center; }
