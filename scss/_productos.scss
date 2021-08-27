@@ -55,7 +55,7 @@
         border-radius: 10px;
         min-height: 420px;
         h4 {
-            width: 250px;
+            max-width: 250px;
             border-bottom: 2px solid $rosaPolvo;
             padding-bottom: 5px;
             text-align: center;
@@ -63,7 +63,7 @@
         ul {
             padding: 0;
             li {
-                width: 250px;
+                max-width: 250px;
                 list-style: none;
                 color: rosybrown;
                 font-family: $fuente2;

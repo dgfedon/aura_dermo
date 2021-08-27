@@ -345,7 +345,6 @@ header {
       font-size: 1.5rem;
       font-family: "Source Sans Pro", sans-serif;
       color: #907369;
-      text-transform: uppercase;
       text-align: center;
       padding-bottom: 10px;
       border-bottom: 2px solid #E9DDD4;
@@ -419,7 +418,6 @@ header {
       font-size: 1.5rem;
       font-family: "Source Sans Pro", sans-serif;
       color: #907369;
-      text-transform: uppercase;
       text-align: center;
       padding-bottom: 10px;
       padding-right: 5px; }
@@ -501,7 +499,6 @@ header {
       font-weight: lighter;
       color: #B49C94;
       text-align: center;
-      text-transform: uppercase;
       padding-bottom: 10px;
       padding-right: 40px; }
     .index--nosotros span {
@@ -595,14 +592,14 @@ header {
     border-radius: 10px;
     min-height: 420px; }
     .producto__desvanecer--info h4 {
-      width: 250px;
+      max-width: 250px;
       border-bottom: 2px solid #DAC4C0;
       padding-bottom: 5px;
       text-align: center; }
     .producto__desvanecer--info ul {
       padding: 0; }
       .producto__desvanecer--info ul li {
-        width: 250px;
+        max-width: 250px;
         list-style: none;
         color: rosybrown;
         font-family: "Noto Sans TC", sans-serif;
