@@ -38,6 +38,7 @@ body {
     h4 {
         font-size: map-get($size, h4);
         font-family: $fuente1;
+        text-align: center;
         color: rosybrown;
         margin-top: 15px;
     }
@@ -135,6 +136,7 @@ body {
     h4 {
         font-size: map-get($size, h4);
         font-family: $fuente1;
+        text-align: center;
         color: rosybrown;
         margin-top: 10px;
     }
