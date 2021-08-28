@@ -20,6 +20,18 @@ header {
 
 // Vista mobile
 @media only screen and (min-width:0px) and (max-width:767px) {
+    // Navbar posición
+    .navbar-fixed {
+        position: fixed;
+        top: 24px;
+        right: 20px;
+    }
+    .navbar-expansor {
+        position: relative;
+        top: 70px;
+        text-align: right;
+        height: 280px;
+    }
     // Encabezado de página con flex
     .header__nav--flex {
         @include justify__content--between;
@@ -44,6 +56,18 @@ header {
 }
 // Vista tablet
 @media only screen and (min-width:768px) and (max-width:1239px) {
+    // Navbar posición
+    .navbar-fixed {
+        position: fixed;
+        top: 24px;
+        right: 40px;
+    }
+    .navbar-expansor {
+        position: relative;
+        top: 70px;
+        text-align: right;
+        height: 280px;
+    }
     // Encabezado de página con flex
     .header__nav--flex {
         @include justify__content--between;

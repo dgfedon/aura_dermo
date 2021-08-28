@@ -117,6 +117,15 @@ header {
   cursor: pointer; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
+  .navbar-fixed {
+    position: fixed;
+    top: 24px;
+    right: 20px; }
+  .navbar-expansor {
+    position: relative;
+    top: 70px;
+    text-align: right;
+    height: 280px; }
   .header__nav--flex {
     display: flex;
     justify-content: space-between;
@@ -138,6 +147,15 @@ header {
         background-size: 100% 2px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1239px) {
+  .navbar-fixed {
+    position: fixed;
+    top: 24px;
+    right: 40px; }
+  .navbar-expansor {
+    position: relative;
+    top: 70px;
+    text-align: right;
+    height: 280px; }
   .header__nav--flex {
     display: flex;
     justify-content: space-between;
